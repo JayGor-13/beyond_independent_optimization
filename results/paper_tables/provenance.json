@@ -1,0 +1,59 @@
+{
+  "sources": [
+    {
+      "path": "results/evidence/internvl_experiments_1_2.ipynb",
+      "sha256": "6189413fdebfa17aafa4fee6308b2f2121a91148f2be520a51bcab01b71853e1"
+    },
+    {
+      "path": "results/published/deepseek/compression_routing/summary.csv",
+      "sha256": "941d51aeaa29fa431f41bb8b4650be6ab4ddf11a6be8a6a678c2eeca2d3f98b1"
+    },
+    {
+      "path": "results/published/deepseek/temporal_routing/summary.csv",
+      "sha256": "ead809d948ce05dfa2fdd6759f7bcf62fc031fd29956d38099a3f7e843809bab"
+    },
+    {
+      "path": "results/published/internvl/retention_sweep/summaries/summary.csv",
+      "sha256": "025ab22491abf5ce32641548c71ad2e275f755ed6ff06c0c9e0087c028ca0fd8"
+    },
+    {
+      "path": "results/published/internvl/retention_sweep/summaries/per_example.csv",
+      "sha256": "5ecda326a41d975ec3b4101b4876b3691cd73744a45eeb9faf06dccbb241afc8"
+    },
+    {
+      "path": "results/published/internvl/retention_sweep/run_config.json",
+      "sha256": "d8fefea9a03060215753787fd48b3992172f17866085f891d6e482c9e7eb8f9c"
+    },
+    {
+      "path": "results/published/internvl/retention_sweep/complete.json",
+      "sha256": "eba0337401bd2a7ece7f3584f25ca336410c122c57a0eaee324938814496e2be"
+    },
+    {
+      "path": "results/published/internvl/retention_sweep/native_equivalence.json",
+      "sha256": "d723552ce1edbaaf9320bd7be9b6dc744864858d19e1a0e328d95f170833ec2c"
+    },
+    {
+      "path": "results/published/internvl/retention_sweep/manifests/examples.json",
+      "sha256": "8e7a0a79adb97c6f5fbde49eba19b8686762988b7fb4e6f95ae33ab77ccdf363"
+    }
+  ],
+  "notebook_table_locations_zero_based": [
+    {
+      "cell_index": 7,
+      "output_index": 0
+    },
+    {
+      "cell_index": 7,
+      "output_index": 1
+    },
+    {
+      "cell_index": 7,
+      "output_index": 2
+    }
+  ],
+  "internvl_checkpoint": "OpenGVLab/InternVL3_5-30B-A3B",
+  "internvl_revision": "ba1762d830e2aeddb3272b66ba9e0abf7e69f626",
+  "internvl_precision": "expert-nf4",
+  "precision_note": "InternVL Exp1 uses the exact saved full-sweep CSV values. Exp2 remains extracted from six-decimal notebook tables and printed analysis logs.",
+  "comparison_note": "Exp1: DeepSeek n=1000 at 25/50/70/75% retention; InternVL n=256 at 25/50/70/75/100%, with separate L2/random identity controls at 100%. Exp2: n=256 each; paired cross-model manifests unavailable. DeepSeek correctness is recorded only for chronological inputs; InternVL has four answer-generating controls. Router permutation is a routing-only diagnostic. Precision, preprocessing and expert counts differ. No third model results supplied."
+}

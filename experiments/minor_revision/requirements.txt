@@ -1,0 +1,15 @@
+# Separate environment from the existing InternVL/DeepSeek experiments.
+# Install a compatible CUDA build of torch first if the server already uses one.
+torch==2.9.1
+torchvision==0.24.1
+transformers==5.5.0
+huggingface-hub==1.33.0
+accelerate==1.12.0
+bitsandbytes==0.49.2
+datasets==4.8.5
+safetensors==0.8.0
+numpy==2.5.5
+pillow==13.0.0
+sentencepiece==0.2.3
+tqdm==4.70.1
+pytest==9.2.0

@@ -1,0 +1,10 @@
+-r ../requirements-analysis.txt
+torch==2.9.1
+torchvision==0.24.1
+transformers==5.5.0
+accelerate==1.12.0
+huggingface-hub==1.33.0
+datasets==4.8.5
+safetensors==0.8.0
+sentencepiece==0.2.3
+pytest==9.2.0

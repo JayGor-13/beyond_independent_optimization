@@ -1,0 +1,7 @@
+* text=auto eol=lf
+*.pdf binary
+*.png binary
+*.jpg binary
+# Retain byte-for-byte provenance for original measurements and executed evidence.
+results/published/** -text
+results/evidence/** -text

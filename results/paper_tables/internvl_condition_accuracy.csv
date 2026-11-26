@@ -1,0 +1,5 @@
+condition,examples,accuracy,accuracy_delta_from_chronological,delta_ci95_low,delta_ci95_high,invalid_answer_fraction,model,model_revision,precision,protocol,model_label
+chronological,256,0.878906,0.0,0.0,0.0,0.0,OpenGVLab/InternVL3_5-30B-A3B,ba1762d830e2aeddb3272b66ba9e0abf7e69f626,expert-nf4,sampled_frames_as_separate_images,InternVL3.5-30B-A3B
+shuffled,256,0.867188,-0.011719,-0.039062,0.011719,0.0,OpenGVLab/InternVL3_5-30B-A3B,ba1762d830e2aeddb3272b66ba9e0abf7e69f626,expert-nf4,sampled_frames_as_separate_images,InternVL3.5-30B-A3B
+duplicate,256,0.746094,-0.132812,-0.179688,-0.089746,0.0,OpenGVLab/InternVL3_5-30B-A3B,ba1762d830e2aeddb3272b66ba9e0abf7e69f626,expert-nf4,sampled_frames_as_separate_images,InternVL3.5-30B-A3B
+cross_clip,256,0.449219,-0.429688,-0.492188,-0.363281,0.0,OpenGVLab/InternVL3_5-30B-A3B,ba1762d830e2aeddb3272b66ba9e0abf7e69f626,expert-nf4,sampled_frames_as_separate_images,InternVL3.5-30B-A3B

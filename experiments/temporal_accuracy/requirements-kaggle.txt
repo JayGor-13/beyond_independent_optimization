@@ -1,0 +1,15 @@
+transformers==4.41.0
+accelerate==0.27.2
+timm==0.9.16
+sentencepiece
+attrdict3
+einops
+datasets
+huggingface_hub
+opencv-python-headless
+pillow
+pandas
+scipy
+matplotlib
+safetensors
+tqdm

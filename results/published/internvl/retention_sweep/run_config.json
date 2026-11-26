@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "adapter_version": 1,
+  "model_alias": "internvl35",
+  "model": "OpenGVLab/InternVL3_5-30B-A3B",
+  "model_revision": "ba1762d830e2aeddb3272b66ba9e0abf7e69f626",
+  "experiment": 1,
+  "limit": 256,
+  "smoke": false,
+  "seed": 20260818,
+  "precision": "expert-nf4",
+  "max_new_tokens": 8,
+  "max_pixels": null,
+  "internvl_tiles_per_image": 1,
+  "dataset": "derek-thomas/ScienceQA",
+  "dataset_revision": "f18b0a70359ebfb41f658fd564208d0355b013f4",
+  "video_revision": null,
+  "protocol": "visual_token_pruning",
+  "position_policy": "reindex_retained_sequence",
+  "retentions": [
+    1.0,
+    0.25,
+    0.5,
+    0.75,
+    0.7
+  ],
+  "random_seeds": [
+    0
+  ],
+  "frames": null,
+  "cross_clip_policy": null,
+  "versions": {
+    "torch": "2.11.0+cu128",
+    "transformers": "4.57.6",
+    "accelerate": "1.12.0",
+    "bitsandbytes": "0.49.2",
+    "datasets": "4.8.5"
+  }
+}

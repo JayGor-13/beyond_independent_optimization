@@ -1,0 +1,11 @@
+model_label,condition,clips,trc8,weighted_trc,accuracy_percent,accuracy_status
+DeepSeek-VL2-Tiny,duplicate,256,0.8044821092507781,0.907180183952638,,not_measured
+DeepSeek-VL2-Tiny,chronological,256,0.6367383157967573,0.8302396277234854,63.28125,measured
+DeepSeek-VL2-Tiny,shuffled,256,0.6148390525419746,0.820884069668238,,not_measured
+DeepSeek-VL2-Tiny,cross_clip,256,0.4433395034348768,0.7388658611627006,,not_measured
+DeepSeek-VL2-Tiny,router_permutation,256,0.0706062385936574,0.4844317793113848,,routing_only
+InternVL3.5-30B-A3B,duplicate,256,0.642164,0.800447,74.60940000000001,measured
+InternVL3.5-30B-A3B,chronological,256,0.508932,0.690465,87.89059999999999,measured
+InternVL3.5-30B-A3B,shuffled,256,0.475993,0.669385,86.7188,measured
+InternVL3.5-30B-A3B,cross_clip,256,0.279975,0.476979,44.9219,measured
+InternVL3.5-30B-A3B,router_permutation,256,0.034272,0.353208,,routing_only

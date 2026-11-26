@@ -1,0 +1,11 @@
+transformers==4.38.2
+accelerate==0.27.2
+timm==0.9.16
+sentencepiece
+attrdict3
+einops
+datasets
+pillow
+safetensors
+tqdm
+

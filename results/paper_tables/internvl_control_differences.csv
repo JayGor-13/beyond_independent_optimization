@@ -1,0 +1,9 @@
+comparison,metric,clips,mean_difference,median_difference,ci95_low,ci95_high
+chronological_minus_duplicate,trc8,256,-0.133232,-0.118982,-0.142113,-0.125428
+chronological_minus_shuffled,trc8,256,0.032939,0.027006,0.028131,0.037920
+chronological_minus_cross_clip,trc8,256,0.228958,0.235789,0.218290,0.239263
+chronological_minus_router_permutation,trc8,256,0.474660,0.486243,0.465028,0.483968
+chronological_minus_duplicate,weighted_trc,256,-0.109981,-0.101564,-0.116404,-0.103882
+chronological_minus_shuffled,weighted_trc,256,0.021080,0.015648,0.018056,0.024065
+chronological_minus_cross_clip,weighted_trc,256,0.213486,0.225078,0.206355,0.220301
+chronological_minus_router_permutation,weighted_trc,256,0.337257,0.341108,0.331849,0.343015

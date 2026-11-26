@@ -1,0 +1,18 @@
+\begin{tabular}{llrrr}
+\toprule
+Model & Condition & TRC@8 & Weighted TRC & Accuracy (\%) \\
+\midrule
+DeepSeek-VL2-Tiny & Duplicate & 0.8045 & 0.9072 & \textit{n/m} \\
+ & Chronological & 0.6367 & 0.8302 & 63.28 \\
+ & Shuffled & 0.6148 & 0.8209 & \textit{n/m} \\
+ & Cross-clip & 0.4433 & 0.7389 & \textit{n/m} \\
+ & Router permutation & 0.0706 & 0.4844 & \textit{n/a} \\
+\addlinespace
+InternVL3.5-30B-A3B & Duplicate & 0.6422 & 0.8004 & 74.61 \\
+ & Chronological & 0.5089 & 0.6905 & 87.89 \\
+ & Shuffled & 0.4760 & 0.6694 & 86.72 \\
+ & Cross-clip & 0.2800 & 0.4770 & 44.92 \\
+ & Router permutation & 0.0343 & 0.3532 & \textit{n/a} \\
+\addlinespace
+\bottomrule
+\end{tabular}

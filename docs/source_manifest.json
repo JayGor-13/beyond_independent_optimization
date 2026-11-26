@@ -1,0 +1,1189 @@
+{
+  "schema": 1,
+  "prepared_on": "2026-11-26",
+  "files": [
+    {
+      "source": "Experiment-1/compression_routing_kaggle/IMPLEMENTATION.md",
+      "destination": "experiments/compression_routing/IMPLEMENTATION.md",
+      "source_sha256": "07d18a06a0343bfd048b2e9641db8883333c62842ab071387a287d1a88331a88",
+      "release_sha256": "07d18a06a0343bfd048b2e9641db8883333c62842ab071387a287d1a88331a88",
+      "byte_identical": true
+    },
+    {
+      "source": "Experiment-1/compression_routing_kaggle/README.md",
+      "destination": "experiments/compression_routing/README.md",
+      "source_sha256": "fc751ed8d4376d460501e8b6896d621aab7091e98fa42df4232bdd4e8f3b9403",
+      "release_sha256": "fc751ed8d4376d460501e8b6896d621aab7091e98fa42df4232bdd4e8f3b9403",
+      "byte_identical": true
+    },
+    {
+      "source": "Experiment-1/compression_routing_kaggle/analyze.py",
+      "destination": "experiments/compression_routing/analyze.py",
+      "source_sha256": "2a3b2e7ad06d88f7f4f673edbe39177fbf25c71b29712755f8a3b80422f8b3e1",
+      "release_sha256": "2a3b2e7ad06d88f7f4f673edbe39177fbf25c71b29712755f8a3b80422f8b3e1",
+      "byte_identical": true
+    },
+    {
+      "source": "Experiment-1/compression_routing_kaggle/analyze_expert_load.py",
+      "destination": "experiments/compression_routing/analyze_expert_load.py",
+      "source_sha256": "188445f59761abc43f52c5551be27f364702da2106fdb0675cfd0679ffa6181f",
+      "release_sha256": "188445f59761abc43f52c5551be27f364702da2106fdb0675cfd0679ffa6181f",
+      "byte_identical": true
+    },
+    {
+      "source": "Experiment-1/compression_routing_kaggle/analyze_fastmmoe.py",
+      "destination": "experiments/compression_routing/analyze_fastmmoe.py",
+      "source_sha256": "64ed1ecffc3eed8e55f37b778951ef72103495b13d794a8c65a63776d00fd128",
+      "release_sha256": "64ed1ecffc3eed8e55f37b778951ef72103495b13d794a8c65a63776d00fd128",
+      "byte_identical": true
+    },
+    {
+      "source": "Experiment-1/compression_routing_kaggle/model_compat.py",
+      "destination": "experiments/compression_routing/model_compat.py",
+      "source_sha256": "bbb84bc2d71b86394af1c633fbbd1f352b23cf474587c33dfff68d5043203427",
+      "release_sha256": "bbb84bc2d71b86394af1c633fbbd1f352b23cf474587c33dfff68d5043203427",
+      "byte_identical": true
+    },
+    {
+      "source": "Experiment-1/compression_routing_kaggle/requirements-internvl35.txt",
+      "destination": "experiments/compression_routing/requirements-internvl35.txt",
+      "source_sha256": "06bab267b2bfe10ebb8e1cecb9f65105c0ab19665c4677846284417b0518c26f",
+      "release_sha256": "06bab267b2bfe10ebb8e1cecb9f65105c0ab19665c4677846284417b0518c26f",
+      "byte_identical": true
+    },
+    {
+      "source": "Experiment-1/compression_routing_kaggle/requirements-kaggle.txt",
+      "destination": "experiments/compression_routing/requirements-kaggle.txt",
+      "source_sha256": "a59d6bad6f28aa8f33622bd9936dc65a362bb12dca1d7dc194f768c78e8ef44d",
+      "release_sha256": "a59d6bad6f28aa8f33622bd9936dc65a362bb12dca1d7dc194f768c78e8ef44d",
+      "byte_identical": true
+    },
+    {
+      "source": "Experiment-1/compression_routing_kaggle/run.py",
+      "destination": "experiments/compression_routing/run.py",
+      "source_sha256": "6f33da89e30b398074f90649fd2147a88935f897e321fbbea0ef31ca441d4590",
+      "release_sha256": "6f33da89e30b398074f90649fd2147a88935f897e321fbbea0ef31ca441d4590",
+      "byte_identical": true
+    },
+    {
+      "source": "Experiment-1/compression_routing_kaggle/run_fastmmoe.py",
+      "destination": "experiments/compression_routing/run_fastmmoe.py",
+      "source_sha256": "206b47ccdbe89ad83e39ba7680ba0dbfbe5a568996f722e7b3d89e78b4955521",
+      "release_sha256": "0bcde0fdd82205fe9f3003d346da4b6dce94d8e230a6c6c01a7209171c920ad5",
+      "byte_identical": false
+    },
+    {
+      "source": "Experiment-1/compression_routing_kaggle/run_internvl35.py",
+      "destination": "experiments/compression_routing/run_internvl35.py",
+      "source_sha256": "fd1161c3a4fd051d28cc59cec8b427eec0c7e1e889d110b7627851fe3daac00f",
+      "release_sha256": "fd1161c3a4fd051d28cc59cec8b427eec0c7e1e889d110b7627851fe3daac00f",
+      "byte_identical": true
+    },
+    {
+      "source": "Experiment-1/compression_routing_kaggle/setup_internvl35.sh",
+      "destination": "experiments/compression_routing/setup_internvl35.sh",
+      "source_sha256": "bd1b073988737cf66d80643867a647cc90eda03a402d3e6b15d41210b6c32907",
+      "release_sha256": "bd1b073988737cf66d80643867a647cc90eda03a402d3e6b15d41210b6c32907",
+      "byte_identical": true
+    },
+    {
+      "source": "Experiment-1/compression_routing_kaggle/setup_kaggle.sh",
+      "destination": "experiments/compression_routing/setup_kaggle.sh",
+      "source_sha256": "9a43d04e83fb4a65a1821b40a837dc216fe507f7a9e5a688690f5e88bbd19802",
+      "release_sha256": "052eb6ce5c4c60191ca12fb3b0ddc7d88b9d58ceec3d7fbd60d9114d9e2bc5e5",
+      "byte_identical": false
+    },
+    {
+      "source": "Experiment-1/compression_routing_kaggle/test_metrics.py",
+      "destination": "experiments/compression_routing/test_metrics.py",
+      "source_sha256": "6249ef19d7ef9d7db185820591fb0c920485c75cfdfccf19267d89407d9f30eb",
+      "release_sha256": "6249ef19d7ef9d7db185820591fb0c920485c75cfdfccf19267d89407d9f30eb",
+      "byte_identical": true
+    },
+    {
+      "source": "experiment_1_textvqa/README.md",
+      "destination": "experiments/textvqa/README.md",
+      "source_sha256": "e75650b56d1cb6d36cd8d189cec24a4e0546d1ea10441c42b3fb6b541914f0a7",
+      "release_sha256": "17244243523bfdd100e2829aaaf57aa7f5691dba0098210da53c14d3071d8e4f",
+      "byte_identical": false
+    },
+    {
+      "source": "experiment_1_textvqa/analyze.py",
+      "destination": "experiments/textvqa/analyze.py",
+      "source_sha256": "1e74750b08787cbfc63adfca79ff4de3f34a5ac5e76b0348fed39b479063b6b9",
+      "release_sha256": "1e74750b08787cbfc63adfca79ff4de3f34a5ac5e76b0348fed39b479063b6b9",
+      "byte_identical": true
+    },
+    {
+      "source": "experiment_1_textvqa/requirements-kaggle.txt",
+      "destination": "experiments/textvqa/requirements-kaggle.txt",
+      "source_sha256": "78105c3564dd3a62f772fa9cf138d7cfc189419fe649eae07f656c9d335f9288",
+      "release_sha256": "78105c3564dd3a62f772fa9cf138d7cfc189419fe649eae07f656c9d335f9288",
+      "byte_identical": true
+    },
+    {
+      "source": "experiment_1_textvqa/run.py",
+      "destination": "experiments/textvqa/run.py",
+      "source_sha256": "ec05a7adc3cf4446e93c544c05a8816ada0597de232e5031f73c547cfb297d33",
+      "release_sha256": "620d13cbaeccdaa3b97613b9a16e60c873b839423fade9266b01e73d6b354406",
+      "byte_identical": false
+    },
+    {
+      "source": "experiment_1_textvqa/setup_kaggle.sh",
+      "destination": "experiments/textvqa/setup_kaggle.sh",
+      "source_sha256": "c2b89e9ad5b8c4e02ca9266fd352fdeeb1576fca91454259fb88e2df8d16dd9c",
+      "release_sha256": "1691078abbe0fcc445b7ad8d95eb021171763be00371fa85626d0dce3d503dc3",
+      "byte_identical": false
+    },
+    {
+      "source": "experiment_1_textvqa/test_textvqa.py",
+      "destination": "experiments/textvqa/test_textvqa.py",
+      "source_sha256": "8a5bc748b1ce78b9135886a798fddc1206115258f37e389be14329b1e132d953",
+      "release_sha256": "8a5bc748b1ce78b9135886a798fddc1206115258f37e389be14329b1e132d953",
+      "byte_identical": true
+    },
+    {
+      "source": "experiment_1_textvqa/textvqa_metrics.py",
+      "destination": "experiments/textvqa/textvqa_metrics.py",
+      "source_sha256": "b00dfa5440c14771b06bbe233c1c1ebce7dc3f398ec95abb3780469cfcfbccfd",
+      "release_sha256": "b00dfa5440c14771b06bbe233c1c1ebce7dc3f398ec95abb3780469cfcfbccfd",
+      "byte_identical": true
+    },
+    {
+      "source": "experiment_2_TRC/IMPLEMENTATION.md",
+      "destination": "experiments/temporal_routing/IMPLEMENTATION.md",
+      "source_sha256": "c60b34044576e343d4057efbb325b20648bb1ffabaa5ef06304f858e56b0f97b",
+      "release_sha256": "c60b34044576e343d4057efbb325b20648bb1ffabaa5ef06304f858e56b0f97b",
+      "byte_identical": true
+    },
+    {
+      "source": "experiment_2_TRC/README.md",
+      "destination": "experiments/temporal_routing/README.md",
+      "source_sha256": "1596a476e65b565bebaa4cf47c4aaf8e5903b7ce52baf5957545759e508d746c",
+      "release_sha256": "1596a476e65b565bebaa4cf47c4aaf8e5903b7ce52baf5957545759e508d746c",
+      "byte_identical": true
+    },
+    {
+      "source": "experiment_2_TRC/TRC_TECHNICAL_PLAN.md",
+      "destination": "experiments/temporal_routing/TRC_TECHNICAL_PLAN.md",
+      "source_sha256": "807eec13786740284adc4467ed72933e6572510eeee328ab8835ad273fb25eb3",
+      "release_sha256": "807eec13786740284adc4467ed72933e6572510eeee328ab8835ad273fb25eb3",
+      "byte_identical": true
+    },
+    {
+      "source": "experiment_2_TRC/analyze.py",
+      "destination": "experiments/temporal_routing/analyze.py",
+      "source_sha256": "58e056ec4a0e892fa95bf67016c980c8716c827156bee8512d91fdfc8b67e119",
+      "release_sha256": "58e056ec4a0e892fa95bf67016c980c8716c827156bee8512d91fdfc8b67e119",
+      "byte_identical": true
+    },
+    {
+      "source": "experiment_2_TRC/requirements-kaggle.txt",
+      "destination": "experiments/temporal_routing/requirements-kaggle.txt",
+      "source_sha256": "88ef2b16bf8ca17abfc91e6093a74f2323aaae6906e41d6550a9f69bfae1dcfb",
+      "release_sha256": "88ef2b16bf8ca17abfc91e6093a74f2323aaae6906e41d6550a9f69bfae1dcfb",
+      "byte_identical": true
+    },
+    {
+      "source": "experiment_2_TRC/run.py",
+      "destination": "experiments/temporal_routing/run.py",
+      "source_sha256": "23810a874b8aebae641bc32a9430eb6bb6710d9732e2f39e44883d8349799121",
+      "release_sha256": "23810a874b8aebae641bc32a9430eb6bb6710d9732e2f39e44883d8349799121",
+      "byte_identical": true
+    },
+    {
+      "source": "experiment_2_TRC/setup_kaggle.sh",
+      "destination": "experiments/temporal_routing/setup_kaggle.sh",
+      "source_sha256": "2ba073f316bd2f21cfe284faf9946464131a518dcbaad035a917ee7b2bea6f09",
+      "release_sha256": "7dbb4b64497e3b8e57a2823a5a5ce7d8b40b4ce1e6e4ee430b2405bc39e8770a",
+      "byte_identical": false
+    },
+    {
+      "source": "experiment_3_TRC_accuracy/IMPLEMENTATION.md",
+      "destination": "experiments/temporal_accuracy/IMPLEMENTATION.md",
+      "source_sha256": "e37c04a0539e85de080ddfeea81166b944199ea9999a9f3832de0fe9c1e9d33a",
+      "release_sha256": "e37c04a0539e85de080ddfeea81166b944199ea9999a9f3832de0fe9c1e9d33a",
+      "byte_identical": true
+    },
+    {
+      "source": "experiment_3_TRC_accuracy/README.md",
+      "destination": "experiments/temporal_accuracy/README.md",
+      "source_sha256": "8080288320a7f9dabb3cec263638bf03d1e1c4f682ac3f1ef742f62f22256e4f",
+      "release_sha256": "1cb26f3ad5dc908a19902fc4c0bdd3468acebeee144b08b0df52ff08a2bad0ac",
+      "byte_identical": false
+    },
+    {
+      "source": "experiment_3_TRC_accuracy/analyze.py",
+      "destination": "experiments/temporal_accuracy/analyze.py",
+      "source_sha256": "23e0c780f8fa899c4da92736dd7decbfb49120a11b11e4df37ce2b18cab0da5c",
+      "release_sha256": "23e0c780f8fa899c4da92736dd7decbfb49120a11b11e4df37ce2b18cab0da5c",
+      "byte_identical": true
+    },
+    {
+      "source": "experiment_3_TRC_accuracy/core.py",
+      "destination": "experiments/temporal_accuracy/core.py",
+      "source_sha256": "a1fa1550eaf4c0682e88f048dd048d0bad0cd2d40b7328f9bc7f7cb80dd8fa6f",
+      "release_sha256": "a1fa1550eaf4c0682e88f048dd048d0bad0cd2d40b7328f9bc7f7cb80dd8fa6f",
+      "byte_identical": true
+    },
+    {
+      "source": "experiment_3_TRC_accuracy/requirements-kaggle.txt",
+      "destination": "experiments/temporal_accuracy/requirements-kaggle.txt",
+      "source_sha256": "7f41569be793322ef97e0748b7722a45d8997a8ab90c124a7cc22d18ab1cd26c",
+      "release_sha256": "7f41569be793322ef97e0748b7722a45d8997a8ab90c124a7cc22d18ab1cd26c",
+      "byte_identical": true
+    },
+    {
+      "source": "experiment_3_TRC_accuracy/run.py",
+      "destination": "experiments/temporal_accuracy/run.py",
+      "source_sha256": "39b68366b4ee68c779cd463a9ad9ea83208420b70a7cc7546a2d5f6435b9e9d3",
+      "release_sha256": "39b68366b4ee68c779cd463a9ad9ea83208420b70a7cc7546a2d5f6435b9e9d3",
+      "byte_identical": true
+    },
+    {
+      "source": "experiment_3_TRC_accuracy/setup_kaggle.sh",
+      "destination": "experiments/temporal_accuracy/setup_kaggle.sh",
+      "source_sha256": "c136ad2c8821aaf8ed4b21afc0f108f64362580f26b313a1ab76abe620f79270",
+      "release_sha256": "c136ad2c8821aaf8ed4b21afc0f108f64362580f26b313a1ab76abe620f79270",
+      "byte_identical": true
+    },
+    {
+      "source": "experiment_3_TRC_accuracy/test_analysis.py",
+      "destination": "experiments/temporal_accuracy/test_analysis.py",
+      "source_sha256": "b907bc0e9c6c67f592781e8d93b14c88d93dc3c484fe1df53e2e82867e2bd2ad",
+      "release_sha256": "b907bc0e9c6c67f592781e8d93b14c88d93dc3c484fe1df53e2e82867e2bd2ad",
+      "byte_identical": true
+    },
+    {
+      "source": "experiment_3_TRC_accuracy/test_core.py",
+      "destination": "experiments/temporal_accuracy/test_core.py",
+      "source_sha256": "d0483daaea5fc3f02c9ebf890006328991d62c07c6d897bdf9147045dde83870",
+      "release_sha256": "d0483daaea5fc3f02c9ebf890006328991d62c07c6d897bdf9147045dde83870",
+      "byte_identical": true
+    },
+    {
+      "source": "experiment_3_TRC_accuracy/test_runtime.py",
+      "destination": "experiments/temporal_accuracy/test_runtime.py",
+      "source_sha256": "cd19ba1b10287879a9a99eb40473ee0cec24d2ad0ffc83d260dc78df542aad2e",
+      "release_sha256": "cd19ba1b10287879a9a99eb40473ee0cec24d2ad0ffc83d260dc78df542aad2e",
+      "byte_identical": true
+    },
+    {
+      "source": "experiment_2_accuracy_only/DeepSeek_Control_Accuracy_Kaggle.ipynb",
+      "destination": "experiments/control_accuracy/DeepSeek_Control_Accuracy_Kaggle.ipynb",
+      "source_sha256": "1905fb97a42f6aafb793a116dfb1244b669453b5c9265526e6914aa6f931f1f3",
+      "release_sha256": "63ace648f25455241a3058eac6c116a5d88b396f77b503a6766d7cd3613b9843",
+      "byte_identical": false
+    },
+    {
+      "source": "experiment_2_accuracy_only/Kaggle_Repair_Arrow_Cell.py",
+      "destination": "experiments/control_accuracy/Kaggle_Repair_Arrow_Cell.py",
+      "source_sha256": "b0d3fc8ef00600c52bb6112f16733e8a313410c2911f2b4a0d586e0a3d68fc3d",
+      "release_sha256": "b0d3fc8ef00600c52bb6112f16733e8a313410c2911f2b4a0d586e0a3d68fc3d",
+      "byte_identical": true
+    },
+    {
+      "source": "experiment_2_accuracy_only/README.md",
+      "destination": "experiments/control_accuracy/README.md",
+      "source_sha256": "a267cd8869ceae323f47cb98c78d9ecec872b393ed8a0528fdb567675712dda9",
+      "release_sha256": "ffe7123700e13d0470a36040d603a6a2b1fb70ea1ad9dcd4541b2e222b9cbb66",
+      "byte_identical": false
+    },
+    {
+      "source": "experiment_2_accuracy_only/build_notebook.py",
+      "destination": "experiments/control_accuracy/build_notebook.py",
+      "source_sha256": "97f677212bff126ce8c5a1d5839e3fb80da3f741b5aa65e56fd801660ac85ab9",
+      "release_sha256": "2c4d2b7a8351f7ce742ba91ab38f17eecc2eaac20bf6b3dd10fac54755604c34",
+      "byte_identical": false
+    },
+    {
+      "source": "experiment_2_accuracy_only/core.py",
+      "destination": "experiments/control_accuracy/core.py",
+      "source_sha256": "6fe0690887e8ab37f4d69da9598a7070440435f12f10fd65429675420b3249e1",
+      "release_sha256": "6fe0690887e8ab37f4d69da9598a7070440435f12f10fd65429675420b3249e1",
+      "byte_identical": true
+    },
+    {
+      "source": "experiment_2_accuracy_only/original_trc_run.py",
+      "destination": "experiments/control_accuracy/original_trc_run.py",
+      "source_sha256": "23810a874b8aebae641bc32a9430eb6bb6710d9732e2f39e44883d8349799121",
+      "release_sha256": "23810a874b8aebae641bc32a9430eb6bb6710d9732e2f39e44883d8349799121",
+      "byte_identical": true
+    },
+    {
+      "source": "experiment_2_accuracy_only/reference_chronological.csv",
+      "destination": "experiments/control_accuracy/reference_chronological.csv",
+      "source_sha256": "415b70d858470c3227c72f11ee4a907131bb2425cea1799587499816cb56f31c",
+      "release_sha256": "415b70d858470c3227c72f11ee4a907131bb2425cea1799587499816cb56f31c",
+      "byte_identical": true
+    },
+    {
+      "source": "experiment_2_accuracy_only/requirements-kaggle.txt",
+      "destination": "experiments/control_accuracy/requirements-kaggle.txt",
+      "source_sha256": "c9fb47736226f460313311e01fb9030dd80e44bc8bae29213ebd965f577cb87f",
+      "release_sha256": "c9fb47736226f460313311e01fb9030dd80e44bc8bae29213ebd965f577cb87f",
+      "byte_identical": true
+    },
+    {
+      "source": "experiment_2_accuracy_only/run.py",
+      "destination": "experiments/control_accuracy/run.py",
+      "source_sha256": "d2cb128240f467c22415d3432bef021492a1536f9ce86462f3ba37f75c741be8",
+      "release_sha256": "d2cb128240f467c22415d3432bef021492a1536f9ce86462f3ba37f75c741be8",
+      "byte_identical": true
+    },
+    {
+      "source": "experiment_2_accuracy_only/setup_runtime.py",
+      "destination": "experiments/control_accuracy/setup_runtime.py",
+      "source_sha256": "b76845b5670edfbf2b8bfea24ecc20137149da43a152cae396327d50066508ee",
+      "release_sha256": "b76845b5670edfbf2b8bfea24ecc20137149da43a152cae396327d50066508ee",
+      "byte_identical": true
+    },
+    {
+      "source": "experiment_2_accuracy_only/test_core.py",
+      "destination": "experiments/control_accuracy/test_core.py",
+      "source_sha256": "cccc5b3fe85a300041f5e14fc230d2abe26ad7ad62a1dfcb4b80686e7c4f7ef7",
+      "release_sha256": "cccc5b3fe85a300041f5e14fc230d2abe26ad7ad62a1dfcb4b80686e7c4f7ef7",
+      "byte_identical": true
+    },
+    {
+      "source": "internvl_original_retention_update/kaggle_new_models/InternVL35_Kaggle.ipynb",
+      "destination": "experiments/multimodel/InternVL35_Kaggle.ipynb",
+      "source_sha256": "57d392ea38095ad8c781fc3024deb62b44f6471d1604d3a70aaef61f4a22707c",
+      "release_sha256": "18e2f6a77386cf7a40bcbbfeec1e0eaf7a633292fbc86763c814e1c1f58382c2",
+      "byte_identical": false
+    },
+    {
+      "source": "internvl_original_retention_update/kaggle_new_models/Qwen3VL_Kaggle.ipynb",
+      "destination": "experiments/multimodel/Qwen3VL_Kaggle.ipynb",
+      "source_sha256": "e18e467404f8209589052f6fba108daf615a5214c6e95c7eafa96de0d4f58241",
+      "release_sha256": "58018f85a94f6911cd9a32b534f332758ca5e1ab2c5d1712a583a69cfd2d88ea",
+      "byte_identical": false
+    },
+    {
+      "source": "internvl_original_retention_update/kaggle_new_models/README.md",
+      "destination": "experiments/multimodel/README.md",
+      "source_sha256": "066f3521841afefa57872c851e9f656e10a27604d8ae9ca0355fea50525e5204",
+      "release_sha256": "7bbee487247b9dbafc487a800117fcd7cda779a2452aa5ca5dff4a827a17aef7",
+      "byte_identical": false
+    },
+    {
+      "source": "internvl_original_retention_update/kaggle_new_models/VALIDATION.md",
+      "destination": "experiments/multimodel/VALIDATION.md",
+      "source_sha256": "054d8202d78b9607783291f5bb3945216bdc2a894c74414640f3cbf93e7d9714",
+      "release_sha256": "054d8202d78b9607783291f5bb3945216bdc2a894c74414640f3cbf93e7d9714",
+      "byte_identical": true
+    },
+    {
+      "source": "internvl_original_retention_update/kaggle_new_models/adapters.py",
+      "destination": "experiments/multimodel/adapters.py",
+      "source_sha256": "b1771591a79ead4f09b257c7fb72cc231de8d250b5b093394808fe70ed540851",
+      "release_sha256": "b1771591a79ead4f09b257c7fb72cc231de8d250b5b093394808fe70ed540851",
+      "byte_identical": true
+    },
+    {
+      "source": "internvl_original_retention_update/kaggle_new_models/analyze.py",
+      "destination": "experiments/multimodel/analyze.py",
+      "source_sha256": "542d2dc00d575c5dc124b8dcff523db8241cf76895deac7fdf966cda063a9398",
+      "release_sha256": "542d2dc00d575c5dc124b8dcff523db8241cf76895deac7fdf966cda063a9398",
+      "byte_identical": true
+    },
+    {
+      "source": "internvl_original_retention_update/kaggle_new_models/analyze_exp1.py",
+      "destination": "experiments/multimodel/analyze_exp1.py",
+      "source_sha256": "2a3b2e7ad06d88f7f4f673edbe39177fbf25c71b29712755f8a3b80422f8b3e1",
+      "release_sha256": "2a3b2e7ad06d88f7f4f673edbe39177fbf25c71b29712755f8a3b80422f8b3e1",
+      "byte_identical": true
+    },
+    {
+      "source": "internvl_original_retention_update/kaggle_new_models/analyze_exp2.py",
+      "destination": "experiments/multimodel/analyze_exp2.py",
+      "source_sha256": "58e056ec4a0e892fa95bf67016c980c8716c827156bee8512d91fdfc8b67e119",
+      "release_sha256": "58e056ec4a0e892fa95bf67016c980c8716c827156bee8512d91fdfc8b67e119",
+      "byte_identical": true
+    },
+    {
+      "source": "internvl_original_retention_update/kaggle_new_models/build_package.py",
+      "destination": "experiments/multimodel/build_package.py",
+      "source_sha256": "efcbb74de9f081bcb127927df96debc67a1753120795628f6793621856c353c6",
+      "release_sha256": "8ab4541319739657949b5a12c93f6e556f5c2a604cf980fff2590ac3d970f34d",
+      "byte_identical": false
+    },
+    {
+      "source": "internvl_original_retention_update/kaggle_new_models/core.py",
+      "destination": "experiments/multimodel/core.py",
+      "source_sha256": "933d0ca84be807e8701d150e27bd9b9bd4a6e1f49a19151545e34a494a9de38d",
+      "release_sha256": "933d0ca84be807e8701d150e27bd9b9bd4a6e1f49a19151545e34a494a9de38d",
+      "byte_identical": true
+    },
+    {
+      "source": "internvl_original_retention_update/kaggle_new_models/loading.py",
+      "destination": "experiments/multimodel/loading.py",
+      "source_sha256": "bfd3e545dd3787923c606f94c74118555d41a068bac7afabcffbc2ebea3cc7a4",
+      "release_sha256": "bfd3e545dd3787923c606f94c74118555d41a068bac7afabcffbc2ebea3cc7a4",
+      "byte_identical": true
+    },
+    {
+      "source": "internvl_original_retention_update/kaggle_new_models/requirements.txt",
+      "destination": "experiments/multimodel/requirements.txt",
+      "source_sha256": "417ad87a8d1bd0747b4091a98d8462fee6bfa08f1c302aaaf8969419c12260e5",
+      "release_sha256": "417ad87a8d1bd0747b4091a98d8462fee6bfa08f1c302aaaf8969419c12260e5",
+      "byte_identical": true
+    },
+    {
+      "source": "internvl_original_retention_update/kaggle_new_models/run.py",
+      "destination": "experiments/multimodel/run.py",
+      "source_sha256": "a75885fbc7f29a1133b2e11bd2a01bf3cabd982cf68c0121468a482d32e9c1b6",
+      "release_sha256": "a75885fbc7f29a1133b2e11bd2a01bf3cabd982cf68c0121468a482d32e9c1b6",
+      "byte_identical": true
+    },
+    {
+      "source": "internvl_original_retention_update/kaggle_new_models/setup_kaggle.sh",
+      "destination": "experiments/multimodel/setup_kaggle.sh",
+      "source_sha256": "33e56cd256d985af804972fbb88ffe852505e9c713d51fc37dbdfe2b06c468e1",
+      "release_sha256": "33e56cd256d985af804972fbb88ffe852505e9c713d51fc37dbdfe2b06c468e1",
+      "byte_identical": true
+    },
+    {
+      "source": "internvl_original_retention_update/kaggle_new_models/test_adapters.py",
+      "destination": "experiments/multimodel/test_adapters.py",
+      "source_sha256": "79e01753e1093e41aa05c80d231b3355799e4466cf28a6cd82185e8f51129893",
+      "release_sha256": "79e01753e1093e41aa05c80d231b3355799e4466cf28a6cd82185e8f51129893",
+      "byte_identical": true
+    },
+    {
+      "source": "internvl_original_retention_update/kaggle_new_models/test_analysis.py",
+      "destination": "experiments/multimodel/test_analysis.py",
+      "source_sha256": "581a1c891cb49237b7dfb75c2f2a3c7648c2bdf9800842c2033acdfe527746b2",
+      "release_sha256": "581a1c891cb49237b7dfb75c2f2a3c7648c2bdf9800842c2033acdfe527746b2",
+      "byte_identical": true
+    },
+    {
+      "source": "internvl_original_retention_update/kaggle_new_models/test_core.py",
+      "destination": "experiments/multimodel/test_core.py",
+      "source_sha256": "40fc8d953848daadc79fc3c36a2f5957f14a67c6d76b23bb7565ece6309ee727",
+      "release_sha256": "40fc8d953848daadc79fc3c36a2f5957f14a67c6d76b23bb7565ece6309ee727",
+      "byte_identical": true
+    },
+    {
+      "source": "internvl_original_retention_update/kaggle_new_models/test_internvl_source.py",
+      "destination": "experiments/multimodel/test_internvl_source.py",
+      "source_sha256": "550336291d63f288b942ebe08a2bcf95cc2d31959d57f6330cd83c17b49d851b",
+      "release_sha256": "550336291d63f288b942ebe08a2bcf95cc2d31959d57f6330cd83c17b49d851b",
+      "byte_identical": true
+    },
+    {
+      "source": "internvl_original_retention_update/kaggle_new_models/test_loading.py",
+      "destination": "experiments/multimodel/test_loading.py",
+      "source_sha256": "71d2d1346d869b440d82ea339b259e0db76206aac44ed729f06ebbb3bad3012e",
+      "release_sha256": "71d2d1346d869b440d82ea339b259e0db76206aac44ed729f06ebbb3bad3012e",
+      "byte_identical": true
+    },
+    {
+      "source": "internvl_original_retention_update/kaggle_new_models/test_retention_sweep.py",
+      "destination": "experiments/multimodel/test_retention_sweep.py",
+      "source_sha256": "670018325f4f4f491e12a7c375dbd309365a950d80da8d117b6f97969da8111a",
+      "release_sha256": "670018325f4f4f491e12a7c375dbd309365a950d80da8d117b6f97969da8111a",
+      "byte_identical": true
+    },
+    {
+      "source": "minor_revision_experiments/README.md",
+      "destination": "experiments/minor_revision/README.md",
+      "source_sha256": "d7dac68dedfa40ea4cb3620b67c60fef2343c260ec6f1208528981ec594e5c50",
+      "release_sha256": "dfea5c30bc2bf4c5be63d8bb7810bc76ecfb7d7a8881918c044db08bdff7733e",
+      "byte_identical": false
+    },
+    {
+      "source": "minor_revision_experiments/VALIDATION.md",
+      "destination": "experiments/minor_revision/VALIDATION.md",
+      "source_sha256": "8ea6326e60387a1f2a63fd408394474a8c4d039b46b6a510dca413bcbb37e785",
+      "release_sha256": "8ea6326e60387a1f2a63fd408394474a8c4d039b46b6a510dca413bcbb37e785",
+      "byte_identical": true
+    },
+    {
+      "source": "minor_revision_experiments/adapter.py",
+      "destination": "experiments/minor_revision/adapter.py",
+      "source_sha256": "1e66af1e54e16a3bbf247f880e1cf4ede14bfefbbd11dce56aa13dad22d4de8e",
+      "release_sha256": "1e66af1e54e16a3bbf247f880e1cf4ede14bfefbbd11dce56aa13dad22d4de8e",
+      "byte_identical": true
+    },
+    {
+      "source": "minor_revision_experiments/analyze.py",
+      "destination": "experiments/minor_revision/analyze.py",
+      "source_sha256": "8b03acb63119ae496fe7ce2797400743c80d5d42af2bf210d10b7987fd765c42",
+      "release_sha256": "8b03acb63119ae496fe7ce2797400743c80d5d42af2bf210d10b7987fd765c42",
+      "byte_identical": true
+    },
+    {
+      "source": "minor_revision_experiments/data.py",
+      "destination": "experiments/minor_revision/data.py",
+      "source_sha256": "5197a95ef95feafb90d0d51a28e2e716463fe22af5d0b17cea14caafe55973f2",
+      "release_sha256": "5197a95ef95feafb90d0d51a28e2e716463fe22af5d0b17cea14caafe55973f2",
+      "byte_identical": true
+    },
+    {
+      "source": "minor_revision_experiments/loading.py",
+      "destination": "experiments/minor_revision/loading.py",
+      "source_sha256": "f0bd2d841a5af3eaac76dec4e49990ef218ff85c33240bc9b4a26c09af64f14a",
+      "release_sha256": "f0bd2d841a5af3eaac76dec4e49990ef218ff85c33240bc9b4a26c09af64f14a",
+      "byte_identical": true
+    },
+    {
+      "source": "minor_revision_experiments/protocol.py",
+      "destination": "experiments/minor_revision/protocol.py",
+      "source_sha256": "2631a0c04939d2a8c6b9085ededb1f0f3d6d5b478f6df3f9bf10fbf5493cc396",
+      "release_sha256": "2631a0c04939d2a8c6b9085ededb1f0f3d6d5b478f6df3f9bf10fbf5493cc396",
+      "byte_identical": true
+    },
+    {
+      "source": "minor_revision_experiments/requirements.txt",
+      "destination": "experiments/minor_revision/requirements.txt",
+      "source_sha256": "f2da6d101c5060719064aafe6b89078929de76668cc8084cbfc4a7443d6e225c",
+      "release_sha256": "f2da6d101c5060719064aafe6b89078929de76668cc8084cbfc4a7443d6e225c",
+      "byte_identical": true
+    },
+    {
+      "source": "minor_revision_experiments/routing.py",
+      "destination": "experiments/minor_revision/routing.py",
+      "source_sha256": "cd2832ddf04a1ddbc9ec4b6f776dd2a3eea8298479f096fd4555c16e6e2cd3ea",
+      "release_sha256": "cd2832ddf04a1ddbc9ec4b6f776dd2a3eea8298479f096fd4555c16e6e2cd3ea",
+      "byte_identical": true
+    },
+    {
+      "source": "minor_revision_experiments/run.py",
+      "destination": "experiments/minor_revision/run.py",
+      "source_sha256": "bce95a799a5fd9fb2cd4bbecf205c15531901b308e1900da581a7b491636dd35",
+      "release_sha256": "bce95a799a5fd9fb2cd4bbecf205c15531901b308e1900da581a7b491636dd35",
+      "byte_identical": true
+    },
+    {
+      "source": "minor_revision_experiments/run_h200.sh",
+      "destination": "experiments/minor_revision/run_h200.sh",
+      "source_sha256": "ea9286e353a481ac1905e6d1090a65545ef548e0b7b8bc16bc337405951db522",
+      "release_sha256": "ea9286e353a481ac1905e6d1090a65545ef548e0b7b8bc16bc337405951db522",
+      "byte_identical": true
+    },
+    {
+      "source": "minor_revision_experiments/setup.sh",
+      "destination": "experiments/minor_revision/setup.sh",
+      "source_sha256": "2c1790d24a541968667817800b1efe2c5425eb475f63632809a1f6a1808ba256",
+      "release_sha256": "2c1790d24a541968667817800b1efe2c5425eb475f63632809a1f6a1808ba256",
+      "byte_identical": true
+    },
+    {
+      "source": "minor_revision_experiments/test_experiments.py",
+      "destination": "experiments/minor_revision/test_experiments.py",
+      "source_sha256": "2a4dfad48542ed9d499bc425267472baba8a675e56d06e191eafac342bdcd3ee",
+      "release_sha256": "2a4dfad48542ed9d499bc425267472baba8a675e56d06e191eafac342bdcd3ee",
+      "byte_identical": true
+    },
+    {
+      "source": "Experiment-1/Result_Experiment_1/plots/EXPERIMENT_1_FIGURES_AND_TABLES.md",
+      "destination": "results/published/deepseek/compression_routing/plots/EXPERIMENT_1_FIGURES_AND_TABLES.md",
+      "source_sha256": "9eeb7adc1e1252f67d1d937fb0d373034a620aed56b85f0d54f3d803187f605b",
+      "release_sha256": "9eeb7adc1e1252f67d1d937fb0d373034a620aed56b85f0d54f3d803187f605b",
+      "byte_identical": true
+    },
+    {
+      "source": "Experiment-1/Result_Experiment_1/plots/fig1_accuracy_vs_retention.pdf",
+      "destination": "results/published/deepseek/compression_routing/plots/fig1_accuracy_vs_retention.pdf",
+      "source_sha256": "5f9c042b19cd6024e6d6c775168b23cb0c0edc301c2e39cea986e6200d773bc0",
+      "release_sha256": "5f9c042b19cd6024e6d6c775168b23cb0c0edc301c2e39cea986e6200d773bc0",
+      "byte_identical": true
+    },
+    {
+      "source": "Experiment-1/Result_Experiment_1/plots/fig1_accuracy_vs_retention.png",
+      "destination": "results/published/deepseek/compression_routing/plots/fig1_accuracy_vs_retention.png",
+      "source_sha256": "7e1b00897c3b8084aa49777381b5b3e13cfd5742d4550bd4b60ebab9e2df6872",
+      "release_sha256": "7e1b00897c3b8084aa49777381b5b3e13cfd5742d4550bd4b60ebab9e2df6872",
+      "byte_identical": true
+    },
+    {
+      "source": "Experiment-1/Result_Experiment_1/plots/fig2_routing_disruption_vs_retention.pdf",
+      "destination": "results/published/deepseek/compression_routing/plots/fig2_routing_disruption_vs_retention.pdf",
+      "source_sha256": "b823a25d8d04ffda9ac1e7170c9ea2beb7cd0520a43fb9e22bd03447991203fd",
+      "release_sha256": "b823a25d8d04ffda9ac1e7170c9ea2beb7cd0520a43fb9e22bd03447991203fd",
+      "byte_identical": true
+    },
+    {
+      "source": "Experiment-1/Result_Experiment_1/plots/fig2_routing_disruption_vs_retention.png",
+      "destination": "results/published/deepseek/compression_routing/plots/fig2_routing_disruption_vs_retention.png",
+      "source_sha256": "e037449751d953281cbf92711e77eb812f43e5cc2ff0373aff2ba4903e2ae544",
+      "release_sha256": "e037449751d953281cbf92711e77eb812f43e5cc2ff0373aff2ba4903e2ae544",
+      "byte_identical": true
+    },
+    {
+      "source": "Experiment-1/Result_Experiment_1/plots/fig3_matched_method_comparison.pdf",
+      "destination": "results/published/deepseek/compression_routing/plots/fig3_matched_method_comparison.pdf",
+      "source_sha256": "ad2d33fca52328f4f6873b636d710ddb76d24375b2754c55e49eed4f29ad2c12",
+      "release_sha256": "ad2d33fca52328f4f6873b636d710ddb76d24375b2754c55e49eed4f29ad2c12",
+      "byte_identical": true
+    },
+    {
+      "source": "Experiment-1/Result_Experiment_1/plots/fig3_matched_method_comparison.png",
+      "destination": "results/published/deepseek/compression_routing/plots/fig3_matched_method_comparison.png",
+      "source_sha256": "9b812843cb9fe8aa7e69483e99d8ea9ccd97c045b1ec8f9f2bbfeeecc8c49bcc",
+      "release_sha256": "9b812843cb9fe8aa7e69483e99d8ea9ccd97c045b1ec8f9f2bbfeeecc8c49bcc",
+      "byte_identical": true
+    },
+    {
+      "source": "Experiment-1/Result_Experiment_1/summary_Experiment_1.csv",
+      "destination": "results/published/deepseek/compression_routing/summary.csv",
+      "source_sha256": "941d51aeaa29fa431f41bb8b4650be6ab4ddf11a6be8a6a678c2eeca2d3f98b1",
+      "release_sha256": "941d51aeaa29fa431f41bb8b4650be6ab4ddf11a6be8a6a678c2eeca2d3f98b1",
+      "byte_identical": true
+    },
+    {
+      "source": "experiment_2_TRC/Result_TRC_part1/EXPERIMENT_2_FIGURES_AND_INTERPRETATION.md",
+      "destination": "results/published/deepseek/temporal_routing/EXPERIMENT_2_FIGURES_AND_INTERPRETATION.md",
+      "source_sha256": "f2c4d600c06fddb50ced7887b2d204f28b3fcec9f0658a370db90c57029a9de7",
+      "release_sha256": "f2c4d600c06fddb50ced7887b2d204f28b3fcec9f0658a370db90c57029a9de7",
+      "byte_identical": true
+    },
+    {
+      "source": "experiment_2_TRC/Result_TRC_part1/accuracy_relation.csv",
+      "destination": "results/published/deepseek/temporal_routing/accuracy_relation.csv",
+      "source_sha256": "02bc523683d536e1b1e368b899aef41eef1ce6d0e9d2287407ba06bf9869663b",
+      "release_sha256": "02bc523683d536e1b1e368b899aef41eef1ce6d0e9d2287407ba06bf9869663b",
+      "byte_identical": true
+    },
+    {
+      "source": "experiment_2_TRC/Result_TRC_part1/algorithm_parameter_grid.csv",
+      "destination": "results/published/deepseek/temporal_routing/algorithm_parameter_grid.csv",
+      "source_sha256": "06c0399382517053c07d390a9d2d75f37d3e241b7296fe949fd0b7da219638e5",
+      "release_sha256": "06c0399382517053c07d390a9d2d75f37d3e241b7296fe949fd0b7da219638e5",
+      "byte_identical": true
+    },
+    {
+      "source": "experiment_2_TRC/Result_TRC_part1/control_differences.csv",
+      "destination": "results/published/deepseek/temporal_routing/control_differences.csv",
+      "source_sha256": "b271ca0e7376f1cee1fe71a652bf5059b8503a629a63a1f248e4f843d207849d",
+      "release_sha256": "b271ca0e7376f1cee1fe71a652bf5059b8503a629a63a1f248e4f843d207849d",
+      "byte_identical": true
+    },
+    {
+      "source": "experiment_2_TRC/Result_TRC_part1/plots/EXPERIMENT_2_PLOTS_AND_INTERPRETATION.md",
+      "destination": "results/published/deepseek/temporal_routing/plots/EXPERIMENT_2_PLOTS_AND_INTERPRETATION.md",
+      "source_sha256": "81aed54543d4a3789e0127ce8776889a750871508b593c082587c188c0c36abf",
+      "release_sha256": "81aed54543d4a3789e0127ce8776889a750871508b593c082587c188c0c36abf",
+      "byte_identical": true
+    },
+    {
+      "source": "experiment_2_TRC/Result_TRC_part1/plots/fig1_condition_trc_comparison.pdf",
+      "destination": "results/published/deepseek/temporal_routing/plots/fig1_condition_trc_comparison.pdf",
+      "source_sha256": "3b35d543269a0d4638b8087c15854b9d4dd93d2b256dd5c179917afc541dda98",
+      "release_sha256": "3b35d543269a0d4638b8087c15854b9d4dd93d2b256dd5c179917afc541dda98",
+      "byte_identical": true
+    },
+    {
+      "source": "experiment_2_TRC/Result_TRC_part1/plots/fig1_condition_trc_comparison.png",
+      "destination": "results/published/deepseek/temporal_routing/plots/fig1_condition_trc_comparison.png",
+      "source_sha256": "4feb03b21f0d4ead5fbccd1e8bc256642d8255e8345bfe232d7a156c7c01173b",
+      "release_sha256": "4feb03b21f0d4ead5fbccd1e8bc256642d8255e8345bfe232d7a156c7c01173b",
+      "byte_identical": true
+    },
+    {
+      "source": "experiment_2_TRC/Result_TRC_part1/plots/fig2_layerwise_trc8.pdf",
+      "destination": "results/published/deepseek/temporal_routing/plots/fig2_layerwise_trc8.pdf",
+      "source_sha256": "3fe83294bce73612a5561a3ddcd595d353b0b371cb57a813d17c55560fa13a90",
+      "release_sha256": "3fe83294bce73612a5561a3ddcd595d353b0b371cb57a813d17c55560fa13a90",
+      "byte_identical": true
+    },
+    {
+      "source": "experiment_2_TRC/Result_TRC_part1/plots/fig2_layerwise_trc8.png",
+      "destination": "results/published/deepseek/temporal_routing/plots/fig2_layerwise_trc8.png",
+      "source_sha256": "99b2c7a5bd5ffdc7b524f03f86d1143ba5f5c6e10eccbaa1e12b4ce06c2cc9f3",
+      "release_sha256": "99b2c7a5bd5ffdc7b524f03f86d1143ba5f5c6e10eccbaa1e12b4ce06c2cc9f3",
+      "byte_identical": true
+    },
+    {
+      "source": "experiment_2_TRC/Result_TRC_part1/plots/fig3_trc_accuracy_effects.pdf",
+      "destination": "results/published/deepseek/temporal_routing/plots/fig3_trc_accuracy_effects.pdf",
+      "source_sha256": "ef0543beba8d38edf7e1542ac8ec986dc7aaf9797161b219e3e07d1aac4dcca4",
+      "release_sha256": "ef0543beba8d38edf7e1542ac8ec986dc7aaf9797161b219e3e07d1aac4dcca4",
+      "byte_identical": true
+    },
+    {
+      "source": "experiment_2_TRC/Result_TRC_part1/plots/fig3_trc_accuracy_effects.png",
+      "destination": "results/published/deepseek/temporal_routing/plots/fig3_trc_accuracy_effects.png",
+      "source_sha256": "65b636e9db2b366523c0f1610c7432cbf4c374092cdab42ddd624fa35cf4fd4f",
+      "release_sha256": "65b636e9db2b366523c0f1610c7432cbf4c374092cdab42ddd624fa35cf4fd4f",
+      "byte_identical": true
+    },
+    {
+      "source": "experiment_2_TRC/Result_TRC_part1/summary (3).csv",
+      "destination": "results/published/deepseek/temporal_routing/summary.csv",
+      "source_sha256": "ead809d948ce05dfa2fdd6759f7bcf62fc031fd29956d38099a3f7e843809bab",
+      "release_sha256": "ead809d948ce05dfa2fdd6759f7bcf62fc031fd29956d38099a3f7e843809bab",
+      "byte_identical": true
+    },
+    {
+      "source": "experiment_2_TRC/Result_TRC_part1/trc_per_clip.csv",
+      "destination": "results/published/deepseek/temporal_routing/trc_per_clip.csv",
+      "source_sha256": "87ab1281a72985eb424ea4b20d3a177f269e2449a2d7162f37448e3a95d188e5",
+      "release_sha256": "87ab1281a72985eb424ea4b20d3a177f269e2449a2d7162f37448e3a95d188e5",
+      "byte_identical": true
+    },
+    {
+      "source": "experiment_2_TRC/Result_TRC_part1/trc_per_clip_layer.csv",
+      "destination": "results/published/deepseek/temporal_routing/trc_per_clip_layer.csv",
+      "source_sha256": "dde3c3af1529f86cdc29e4595859e9d5b2ba5fe9af3108abcb63099f2a3a7d17",
+      "release_sha256": "dde3c3af1529f86cdc29e4595859e9d5b2ba5fe9af3108abcb63099f2a3a7d17",
+      "byte_identical": true
+    },
+    {
+      "source": "reference_material/experiment_results/internvl_retention_sweep_2026-10-15/complete.json",
+      "destination": "results/published/internvl/retention_sweep/complete.json",
+      "source_sha256": "eba0337401bd2a7ece7f3584f25ca336410c122c57a0eaee324938814496e2be",
+      "release_sha256": "eba0337401bd2a7ece7f3584f25ca336410c122c57a0eaee324938814496e2be",
+      "byte_identical": true
+    },
+    {
+      "source": "reference_material/experiment_results/internvl_retention_sweep_2026-10-15/loading_info.json",
+      "destination": "results/published/internvl/retention_sweep/loading_info.json",
+      "source_sha256": "d9ff6b3da67f0d862b68af5187f0f0bc318452489c6fdf12ac2f4dd4b8f22474",
+      "release_sha256": "d9ff6b3da67f0d862b68af5187f0f0bc318452489c6fdf12ac2f4dd4b8f22474",
+      "byte_identical": true
+    },
+    {
+      "source": "reference_material/experiment_results/internvl_retention_sweep_2026-10-15/manifests/examples.json",
+      "destination": "results/published/internvl/retention_sweep/manifests/examples.json",
+      "source_sha256": "8e7a0a79adb97c6f5fbde49eba19b8686762988b7fb4e6f95ae33ab77ccdf363",
+      "release_sha256": "8e7a0a79adb97c6f5fbde49eba19b8686762988b7fb4e6f95ae33ab77ccdf363",
+      "byte_identical": true
+    },
+    {
+      "source": "reference_material/experiment_results/internvl_retention_sweep_2026-10-15/native_equivalence.json",
+      "destination": "results/published/internvl/retention_sweep/native_equivalence.json",
+      "source_sha256": "d723552ce1edbaaf9320bd7be9b6dc744864858d19e1a0e328d95f170833ec2c",
+      "release_sha256": "d723552ce1edbaaf9320bd7be9b6dc744864858d19e1a0e328d95f170833ec2c",
+      "byte_identical": true
+    },
+    {
+      "source": "reference_material/experiment_results/internvl_retention_sweep_2026-10-15/run_config.json",
+      "destination": "results/published/internvl/retention_sweep/run_config.json",
+      "source_sha256": "d8fefea9a03060215753787fd48b3992172f17866085f891d6e482c9e7eb8f9c",
+      "release_sha256": "d8fefea9a03060215753787fd48b3992172f17866085f891d6e482c9e7eb8f9c",
+      "byte_identical": true
+    },
+    {
+      "source": "reference_material/experiment_results/internvl_retention_sweep_2026-10-15/summaries/per_example.csv",
+      "destination": "results/published/internvl/retention_sweep/summaries/per_example.csv",
+      "source_sha256": "5ecda326a41d975ec3b4101b4876b3691cd73744a45eeb9faf06dccbb241afc8",
+      "release_sha256": "5ecda326a41d975ec3b4101b4876b3691cd73744a45eeb9faf06dccbb241afc8",
+      "byte_identical": true
+    },
+    {
+      "source": "reference_material/experiment_results/internvl_retention_sweep_2026-10-15/summaries/summary.csv",
+      "destination": "results/published/internvl/retention_sweep/summaries/summary.csv",
+      "source_sha256": "025ab22491abf5ce32641548c71ad2e275f755ed6ff06c0c9e0087c028ca0fd8",
+      "release_sha256": "025ab22491abf5ce32641548c71ad2e275f755ed6ff06c0c9e0087c028ca0fd8",
+      "byte_identical": true
+    },
+    {
+      "source": "results/model_comparison/exp1_comparison.csv",
+      "destination": "results/paper_tables/exp1_comparison.csv",
+      "source_sha256": "91adccae66a95eb59e13fea4dcb8b214482b590aff6f3d83b6337947a47f7e75",
+      "release_sha256": "91adccae66a95eb59e13fea4dcb8b214482b590aff6f3d83b6337947a47f7e75",
+      "byte_identical": true
+    },
+    {
+      "source": "results/model_comparison/exp1_comparison_table.tex",
+      "destination": "results/paper_tables/exp1_comparison_table.tex",
+      "source_sha256": "4e25b82bed0574ab05637269eda6fdc08ea85a92c40c589f023d13bd292257ac",
+      "release_sha256": "4e25b82bed0574ab05637269eda6fdc08ea85a92c40c589f023d13bd292257ac",
+      "byte_identical": true
+    },
+    {
+      "source": "results/model_comparison/exp1_paper_values.csv",
+      "destination": "results/paper_tables/exp1_paper_values.csv",
+      "source_sha256": "7b8b48bbf519641ddb558a81c9b54098d3f1496d4a0fdabcd009ecbadd4cea93",
+      "release_sha256": "7b8b48bbf519641ddb558a81c9b54098d3f1496d4a0fdabcd009ecbadd4cea93",
+      "byte_identical": true
+    },
+    {
+      "source": "results/model_comparison/exp2_comparison_table.tex",
+      "destination": "results/paper_tables/exp2_comparison_table.tex",
+      "source_sha256": "c6c9c1854271d7cbf0aa20415c9b7245029abe3cf8a0c12e83c3ecc55ca8178d",
+      "release_sha256": "c6c9c1854271d7cbf0aa20415c9b7245029abe3cf8a0c12e83c3ecc55ca8178d",
+      "byte_identical": true
+    },
+    {
+      "source": "results/model_comparison/exp2_paper_values.csv",
+      "destination": "results/paper_tables/exp2_paper_values.csv",
+      "source_sha256": "d2b615b1213ce5ea04536e3836511c8aee3cf41760d3a963e955a7180429ddd2",
+      "release_sha256": "d2b615b1213ce5ea04536e3836511c8aee3cf41760d3a963e955a7180429ddd2",
+      "byte_identical": true
+    },
+    {
+      "source": "results/model_comparison/internvl_accuracy_relation.csv",
+      "destination": "results/paper_tables/internvl_accuracy_relation.csv",
+      "source_sha256": "2af77634977ca8bbef103d6409927c221a73b8ef208bbfe9e38abe004a7a0692",
+      "release_sha256": "2af77634977ca8bbef103d6409927c221a73b8ef208bbfe9e38abe004a7a0692",
+      "byte_identical": true
+    },
+    {
+      "source": "results/model_comparison/internvl_condition_accuracy.csv",
+      "destination": "results/paper_tables/internvl_condition_accuracy.csv",
+      "source_sha256": "5ccc43ba47c427f9f3411f0cd899598272905bb65389741b301c4fac6738ff24",
+      "release_sha256": "5ccc43ba47c427f9f3411f0cd899598272905bb65389741b301c4fac6738ff24",
+      "byte_identical": true
+    },
+    {
+      "source": "results/model_comparison/internvl_control_differences.csv",
+      "destination": "results/paper_tables/internvl_control_differences.csv",
+      "source_sha256": "56c3b9aa63c816e3a0e0444903ec3dcbdee413d74b848c8707280b6b40e8134c",
+      "release_sha256": "56c3b9aa63c816e3a0e0444903ec3dcbdee413d74b848c8707280b6b40e8134c",
+      "byte_identical": true
+    },
+    {
+      "source": "results/model_comparison/internvl_exp1_summary.csv",
+      "destination": "results/paper_tables/internvl_exp1_summary.csv",
+      "source_sha256": "9204546fceed6d4a3701b0bfb80da8e8cbbe0eda2e6a29df7ba7d62063701f28",
+      "release_sha256": "9204546fceed6d4a3701b0bfb80da8e8cbbe0eda2e6a29df7ba7d62063701f28",
+      "byte_identical": true
+    },
+    {
+      "source": "results/model_comparison/internvl_trc_summary.csv",
+      "destination": "results/paper_tables/internvl_trc_summary.csv",
+      "source_sha256": "434c6f4f855eba6f38734867ae46c2b4e1ffc5096325bb5f68a54febfb814ecc",
+      "release_sha256": "434c6f4f855eba6f38734867ae46c2b4e1ffc5096325bb5f68a54febfb814ecc",
+      "byte_identical": true
+    },
+    {
+      "source": "results/model_comparison/provenance.json",
+      "destination": "results/paper_tables/provenance.json",
+      "source_sha256": "96151d72eab1cea59ecf6ba165a230c690a4acf81b57bd409d474970f9a28b66",
+      "release_sha256": "768a7da89324cd0525c683042ac43d2f23e78ac97bc5212b6ac31d01fa773e56",
+      "byte_identical": false
+    },
+    {
+      "source": "results/model_comparison/trc_comparison.csv",
+      "destination": "results/paper_tables/trc_comparison.csv",
+      "source_sha256": "be34935463b53872d2c90e9bd1ae54dcc977c2ab56f811b2f72be891438a67e1",
+      "release_sha256": "be34935463b53872d2c90e9bd1ae54dcc977c2ab56f811b2f72be891438a67e1",
+      "byte_identical": true
+    },
+    {
+      "source": "internvl3-5-30b-a3b-experiments-1-and-2.ipynb",
+      "destination": "results/evidence/internvl_experiments_1_2.ipynb",
+      "source_sha256": "6189413fdebfa17aafa4fee6308b2f2121a91148f2be520a51bcab01b71853e1",
+      "release_sha256": "6189413fdebfa17aafa4fee6308b2f2121a91148f2be520a51bcab01b71853e1",
+      "byte_identical": true
+    },
+    {
+      "source": "figures/Figure_1.pdf",
+      "destination": "paper/figures/Figure_1.pdf",
+      "source_sha256": "d4189a93389e0b56c6483aaa8d86fa7fd91252513f4a3dc6eefdb91449832a96",
+      "release_sha256": "d4189a93389e0b56c6483aaa8d86fa7fd91252513f4a3dc6eefdb91449832a96",
+      "byte_identical": true
+    },
+    {
+      "source": "figures/Figure_2.pdf",
+      "destination": "paper/figures/Figure_2.pdf",
+      "source_sha256": "7f4a3fa71cbeb99d742bd6c86fb716f8fb9a9c8d6d7902900550736f447822c3",
+      "release_sha256": "7f4a3fa71cbeb99d742bd6c86fb716f8fb9a9c8d6d7902900550736f447822c3",
+      "byte_identical": true
+    },
+    {
+      "source": "figures/Figure_2_taxonomy.drawio",
+      "destination": "paper/figures/Figure_2_taxonomy.drawio",
+      "source_sha256": "88c0cb6d7774b61a6b2739fca7f3de8277da97d8cf1aec0598204363140f4de6",
+      "release_sha256": "88c0cb6d7774b61a6b2739fca7f3de8277da97d8cf1aec0598204363140f4de6",
+      "byte_identical": true
+    },
+    {
+      "source": "figures/Figure_3.pdf",
+      "destination": "paper/figures/Figure_3.pdf",
+      "source_sha256": "8b2fb14cadedcc2b923dd5d846fed8e962950271bcd74a9f0623f80856adc10d",
+      "release_sha256": "8b2fb14cadedcc2b923dd5d846fed8e962950271bcd74a9f0623f80856adc10d",
+      "byte_identical": true
+    },
+    {
+      "source": "figures/Figure_5.pdf",
+      "destination": "paper/figures/Figure_5.pdf",
+      "source_sha256": "494ac76b19b56681986b06e331bf602059c02061289abb099c0bafebde3ad3ec",
+      "release_sha256": "494ac76b19b56681986b06e331bf602059c02061289abb099c0bafebde3ad3ec",
+      "byte_identical": true
+    },
+    {
+      "source": "figures/Figure_6.pdf",
+      "destination": "paper/figures/Figure_6.pdf",
+      "source_sha256": "9dd4d2efc06a561e040e38e7663f712249fea6993515cc1fe99862ed502aeb43",
+      "release_sha256": "9dd4d2efc06a561e040e38e7663f712249fea6993515cc1fe99862ed502aeb43",
+      "byte_identical": true
+    },
+    {
+      "source": "figures/Figure_7.pdf",
+      "destination": "paper/figures/Figure_7.pdf",
+      "source_sha256": "8da4534ca9f421aa06840aa0a5e178caab923faca8b09b5b02b27a9ce4030f61",
+      "release_sha256": "8da4534ca9f421aa06840aa0a5e178caab923faca8b09b5b02b27a9ce4030f61",
+      "byte_identical": true
+    },
+    {
+      "source": "figures/Figure_7_failure_chain_with_kv.drawio",
+      "destination": "paper/figures/Figure_7_failure_chain_with_kv.drawio",
+      "source_sha256": "920069ab4f7b6f56bb06306a13c5b4b750aff52177296bec676756a02f9ed75d",
+      "release_sha256": "920069ab4f7b6f56bb06306a13c5b4b750aff52177296bec676756a02f9ed75d",
+      "byte_identical": true
+    },
+    {
+      "source": "figures/exp1_comparison_table.pdf",
+      "destination": "paper/figures/exp1_comparison_table.pdf",
+      "source_sha256": "9272cc6221e6e0f9974d9d7b10a0e1d6c94b7eb6fea1947c7614ef6be8343ddd",
+      "release_sha256": "9272cc6221e6e0f9974d9d7b10a0e1d6c94b7eb6fea1947c7614ef6be8343ddd",
+      "byte_identical": true
+    },
+    {
+      "source": "figures/exp1_comparison_table.png",
+      "destination": "paper/figures/exp1_comparison_table.png",
+      "source_sha256": "28597c53bd8ded5ae4a6e387fdf36fa640eda5d2325a85aa7d790ee0443bfc71",
+      "release_sha256": "28597c53bd8ded5ae4a6e387fdf36fa640eda5d2325a85aa7d790ee0443bfc71",
+      "byte_identical": true
+    },
+    {
+      "source": "figures/exp1_comparison_table.svg",
+      "destination": "paper/figures/exp1_comparison_table.svg",
+      "source_sha256": "1b6c08cd5f0501660847414723b29b5d928993d4801f1c9f66ab98f5b1f8203c",
+      "release_sha256": "1b6c08cd5f0501660847414723b29b5d928993d4801f1c9f66ab98f5b1f8203c",
+      "byte_identical": true
+    },
+    {
+      "source": "figures/exp1_model_comparison.pdf",
+      "destination": "paper/figures/exp1_model_comparison.pdf",
+      "source_sha256": "6577069502fd8eb161a22a69dad8c4e28f8926d30f47dbe3a4fe352837e55b57",
+      "release_sha256": "6577069502fd8eb161a22a69dad8c4e28f8926d30f47dbe3a4fe352837e55b57",
+      "byte_identical": true
+    },
+    {
+      "source": "figures/exp1_model_comparison.png",
+      "destination": "paper/figures/exp1_model_comparison.png",
+      "source_sha256": "dadcfd9f00b5d2b2b9bf43d418ac43c6e02a87a747ed8ff2dfc54f057dd65246",
+      "release_sha256": "dadcfd9f00b5d2b2b9bf43d418ac43c6e02a87a747ed8ff2dfc54f057dd65246",
+      "byte_identical": true
+    },
+    {
+      "source": "figures/exp1_model_comparison.svg",
+      "destination": "paper/figures/exp1_model_comparison.svg",
+      "source_sha256": "375f9a287adb0a7f51fc1aeea12b7c6461d7c32cc14b05eaa00dcd88ce533f2f",
+      "release_sha256": "375f9a287adb0a7f51fc1aeea12b7c6461d7c32cc14b05eaa00dcd88ce533f2f",
+      "byte_identical": true
+    },
+    {
+      "source": "figures/exp1_models_plotted.csv",
+      "destination": "paper/figures/exp1_models_plotted.csv",
+      "source_sha256": "709049df1f6c295a6afbb859066e4c009fd1a6bc29e3dafd8f924267c3afc29b",
+      "release_sha256": "709049df1f6c295a6afbb859066e4c009fd1a6bc29e3dafd8f924267c3afc29b",
+      "byte_identical": true
+    },
+    {
+      "source": "figures/fig1_condition_trc_comparison.pdf",
+      "destination": "paper/figures/fig1_condition_trc_comparison.pdf",
+      "source_sha256": "a0492826dffcc1caa276030d5583bc459962a6c2ab30cc4dc4b5f8201dfefaf1",
+      "release_sha256": "a0492826dffcc1caa276030d5583bc459962a6c2ab30cc4dc4b5f8201dfefaf1",
+      "byte_identical": true
+    },
+    {
+      "source": "figures/fig1_condition_trc_comparison.png",
+      "destination": "paper/figures/fig1_condition_trc_comparison.png",
+      "source_sha256": "a884dcf2ecf02d9959add6c66c318c484c688000f1140bdb5332772b654c30a4",
+      "release_sha256": "a884dcf2ecf02d9959add6c66c318c484c688000f1140bdb5332772b654c30a4",
+      "byte_identical": true
+    },
+    {
+      "source": "figures/taxonomy_figure.tex",
+      "destination": "paper/figures/taxonomy_figure.tex",
+      "source_sha256": "cd9759d6c9f6e4afb4b0222aa557f0830c48ac4338f1c7bc7a7fddb0e1c19b62",
+      "release_sha256": "cd9759d6c9f6e4afb4b0222aa557f0830c48ac4338f1c7bc7a7fddb0e1c19b62",
+      "byte_identical": true
+    },
+    {
+      "source": "figures/trc8_models.pdf",
+      "destination": "paper/figures/trc8_models.pdf",
+      "source_sha256": "2ae7e0533fcc07e759a10f980a51924cbf59519075672a3717f0de21015f23b9",
+      "release_sha256": "2ae7e0533fcc07e759a10f980a51924cbf59519075672a3717f0de21015f23b9",
+      "byte_identical": true
+    },
+    {
+      "source": "figures/trc8_models.png",
+      "destination": "paper/figures/trc8_models.png",
+      "source_sha256": "87701793ae6315ecc5ceb20f85d7e53417c593f22da621470823dea4014a6e14",
+      "release_sha256": "87701793ae6315ecc5ceb20f85d7e53417c593f22da621470823dea4014a6e14",
+      "byte_identical": true
+    },
+    {
+      "source": "figures/trc8_models.svg",
+      "destination": "paper/figures/trc8_models.svg",
+      "source_sha256": "34b2dd6186594a52f38cd18e227d40f6b7e5cec2111b959c086f8c6f511277e6",
+      "release_sha256": "34b2dd6186594a52f38cd18e227d40f6b7e5cec2111b959c086f8c6f511277e6",
+      "byte_identical": true
+    },
+    {
+      "source": "figures/trc_models_combined.pdf",
+      "destination": "paper/figures/trc_models_combined.pdf",
+      "source_sha256": "1084922e6443a05a24c73d10986e3efb254c7d21410232069acd157fd2c75829",
+      "release_sha256": "1084922e6443a05a24c73d10986e3efb254c7d21410232069acd157fd2c75829",
+      "byte_identical": true
+    },
+    {
+      "source": "figures/trc_models_combined.png",
+      "destination": "paper/figures/trc_models_combined.png",
+      "source_sha256": "92b5102ce1b44633f2e1a99779680ef1133825af2f61c508c7dee4763ea6dded",
+      "release_sha256": "92b5102ce1b44633f2e1a99779680ef1133825af2f61c508c7dee4763ea6dded",
+      "byte_identical": true
+    },
+    {
+      "source": "figures/trc_models_combined.svg",
+      "destination": "paper/figures/trc_models_combined.svg",
+      "source_sha256": "2942f372c173844271d4cf9cf1a31d74586cef4e155eabc6f4decdf000fbd9d2",
+      "release_sha256": "2942f372c173844271d4cf9cf1a31d74586cef4e155eabc6f4decdf000fbd9d2",
+      "byte_identical": true
+    },
+    {
+      "source": "figures/trc_models_plotted.csv",
+      "destination": "paper/figures/trc_models_plotted.csv",
+      "source_sha256": "a9f64d81986c63da6fc9add8abb246c83344946e2a31db8566c4a915d38fa1f5",
+      "release_sha256": "a9f64d81986c63da6fc9add8abb246c83344946e2a31db8566c4a915d38fa1f5",
+      "byte_identical": true
+    },
+    {
+      "source": "figures/weighted_trc_models.pdf",
+      "destination": "paper/figures/weighted_trc_models.pdf",
+      "source_sha256": "2551ad41d3d86cbddfc69ac4f8f3674f79e17c9a7b5f8ba0d0afbde4ca52f276",
+      "release_sha256": "2551ad41d3d86cbddfc69ac4f8f3674f79e17c9a7b5f8ba0d0afbde4ca52f276",
+      "byte_identical": true
+    },
+    {
+      "source": "figures/weighted_trc_models.png",
+      "destination": "paper/figures/weighted_trc_models.png",
+      "source_sha256": "9e06675b2a2b555552a65ffb48387635f67e06f1df9f1d115d7624e480489353",
+      "release_sha256": "9e06675b2a2b555552a65ffb48387635f67e06f1df9f1d115d7624e480489353",
+      "byte_identical": true
+    },
+    {
+      "source": "figures/weighted_trc_models.svg",
+      "destination": "paper/figures/weighted_trc_models.svg",
+      "source_sha256": "c65d447eca45e38ce85b317aa08a6f0807ee8275fb098a99703b9a25a587db30",
+      "release_sha256": "c65d447eca45e38ce85b317aa08a6f0807ee8275fb098a99703b9a25a587db30",
+      "byte_identical": true
+    },
+    {
+      "source": "final.tex",
+      "destination": "paper/main.tex",
+      "source_sha256": "a725910c431c502e592021f3c89a0da48c4b85ef6e3817067e21a44518461d99",
+      "release_sha256": "e64b5938016a204ebfc7cd291d9199b7a55322107aedcfb0443a2812c9a0de1b",
+      "byte_identical": false
+    },
+    {
+      "source": "tmlr.bib",
+      "destination": "paper/references.bib",
+      "source_sha256": "dda1b753501b9764eff4e56eb79ffebd96e67c84378960f75c436e416c1d1bac",
+      "release_sha256": "645618cc0b21693c11e0b8770ee2a710d321d872b64ef11f64a76facc2d659d6",
+      "byte_identical": false
+    },
+    {
+      "source": "edge_pareto_frontier.pdf",
+      "destination": "paper/figures/Figure_4.pdf",
+      "source_sha256": "e12d55c96312268b64873559cbc2901b14a0e0227c06452f962868e23c06c540",
+      "release_sha256": "e12d55c96312268b64873559cbc2901b14a0e0227c06452f962868e23c06c540",
+      "byte_identical": true
+    },
+    {
+      "source": "edge_pareto_frontier.svg",
+      "destination": "paper/figures/Figure_4.svg",
+      "source_sha256": "084709f40c6b314f408fc4a22a2a19d0aa8ccc61ae177d489ba3c5901635ae75",
+      "release_sha256": "084709f40c6b314f408fc4a22a2a19d0aa8ccc61ae177d489ba3c5901635ae75",
+      "byte_identical": true
+    },
+    {
+      "source": "extract_model_results.py",
+      "destination": "tools/extract_model_results.py",
+      "source_sha256": "7baa9346eee5fa54c9bdb44a0452e535d89117e05d31e538d8e995cf74f05767",
+      "release_sha256": "1d94486d5947bb8bb4e0d1e8d0bbec337a7b20bcdc931e4b5a541e928bdde5a8",
+      "byte_identical": false
+    },
+    {
+      "source": "plot_model_comparison.py",
+      "destination": "tools/plot_model_comparison.py",
+      "source_sha256": "bea9e900f3a75956a12243f3590c41bc0614f7c2f2d30161143b7dad033f0fdd",
+      "release_sha256": "133f8623ea8202b0c0e754d8212d832fb67e2f94714dda0b3d01ee5d8b2d09ed",
+      "byte_identical": false
+    },
+    {
+      "source": "revise_empirical_tables.py",
+      "destination": "tools/sync_paper_tables.py",
+      "source_sha256": "7ad515d69dbb0aefd5e3f7e1d696dcc76977086a0a09b487dd88102914679c50",
+      "release_sha256": "962b23df412ce93ac1f35ae77ed5b73aaa34b6fe3df89610978649519a3575a1",
+      "byte_identical": false
+    },
+    {
+      "source": "figures/export_vector_figures.py",
+      "destination": "tools/export_vector_figures.py",
+      "source_sha256": "39535bdb3309b7189e47f251c1c91e3d41230c1a48033f99915f37fd4fde4eff",
+      "release_sha256": "082c63cde615d5df76b6b9ed3d0573babf7f1943a08aecaceeb59092223708aa",
+      "byte_identical": false
+    },
+    {
+      "source": "Experiment-1/Result_Experiment_1/plot_experiment1_results.py",
+      "destination": "tools/plot_compression_results.py",
+      "source_sha256": "93a0c72843385e4de9c2bc682b4b41434b53e92d4fcfc81cc4ff73d1402b5ace",
+      "release_sha256": "165b96f3a8d15df3ef4ff357bac855020dd44832452e787127fd9618ef1ea2e1",
+      "byte_identical": false
+    },
+    {
+      "source": "experiment_2_TRC/plot_results.py",
+      "destination": "tools/plot_temporal_results.py",
+      "source_sha256": "88bb27c86e90350bf49cf7f290c5422470126a00b057fa7724337059fa80fce2",
+      "release_sha256": "3fe8d3233546baaef794ca8754c8b8a2504d6781ac2115f9edfaaf66661ad213",
+      "byte_identical": false
+    },
+    {
+      "source": "kaggle_new_models/gemma_adapter.py",
+      "destination": "experimental/gemma4/gemma_adapter.py",
+      "source_sha256": "1a7382f826baf85363f9def06731aa9a90de8f213ba942cb1c2a7674f09cfa24",
+      "release_sha256": "1a7382f826baf85363f9def06731aa9a90de8f213ba942cb1c2a7674f09cfa24",
+      "byte_identical": true
+    },
+    {
+      "source": "kaggle_new_models/gemma_loading.py",
+      "destination": "experimental/gemma4/gemma_loading.py",
+      "source_sha256": "fcb834ccef8efd70f135fc8fd2d97daeab848530dc3ac42fd18bd062edce3e00",
+      "release_sha256": "fcb834ccef8efd70f135fc8fd2d97daeab848530dc3ac42fd18bd062edce3e00",
+      "byte_identical": true
+    },
+    {
+      "source": "kaggle_new_models/gemma_numerics.py",
+      "destination": "experimental/gemma4/gemma_numerics.py",
+      "source_sha256": "2276cebf3f99ccf790a877baec429b1999f8fb9b1a5f9e8d7502b559cc69a14b",
+      "release_sha256": "2276cebf3f99ccf790a877baec429b1999f8fb9b1a5f9e8d7502b559cc69a14b",
+      "byte_identical": true
+    },
+    {
+      "source": "kaggle_new_models/test_gemma.py",
+      "destination": "experimental/gemma4/test_gemma.py",
+      "source_sha256": "dd4c0fe8522e6ea278ddf00d3ca59af575180d38a3ca84e01038f841ed5bce6c",
+      "release_sha256": "dd4c0fe8522e6ea278ddf00d3ca59af575180d38a3ca84e01038f841ed5bce6c",
+      "byte_identical": true
+    },
+    {
+      "source": "kaggle_new_models/requirements_gemma4.txt",
+      "destination": "experimental/gemma4/requirements_gemma4.txt",
+      "source_sha256": "b2491a42489d52edaf72fe83386a40a86c54ade3dabddd91bf3494e709faeb36",
+      "release_sha256": "b2491a42489d52edaf72fe83386a40a86c54ade3dabddd91bf3494e709faeb36",
+      "byte_identical": true
+    },
+    {
+      "source": "kaggle_new_models/GEMMA4.md",
+      "destination": "experimental/gemma4/GEMMA4.md",
+      "source_sha256": "a832e2f9badfbbcf206c8d16f93f5ffaca90ae35ed255d23c5afd7c3e0680010",
+      "release_sha256": "a832e2f9badfbbcf206c8d16f93f5ffaca90ae35ed255d23c5afd7c3e0680010",
+      "byte_identical": true
+    },
+    {
+      "source": "kaggle_new_models/Gemma4_Kaggle.ipynb",
+      "destination": "experimental/gemma4/Gemma4_Kaggle.ipynb",
+      "source_sha256": "0f7873604ab992dd2ea2a8d095b3e526e8d6cb9fdaad102064f8e1d9cbef8aac",
+      "release_sha256": "0f7873604ab992dd2ea2a8d095b3e526e8d6cb9fdaad102064f8e1d9cbef8aac",
+      "byte_identical": true
+    }
+  ]
+}

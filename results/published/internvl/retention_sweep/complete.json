@@ -1,0 +1,16 @@
+{
+  "examples": 256,
+  "conditions": [
+    "baseline",
+    "l2_r100",
+    "random_r100_s0",
+    "l2_r25",
+    "random_r25_s0",
+    "l2_r50",
+    "random_r50_s0",
+    "l2_r75",
+    "random_r75_s0",
+    "l2_r70",
+    "random_r70_s0"
+  ]
+}

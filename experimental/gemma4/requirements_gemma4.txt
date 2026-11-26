@@ -1,0 +1,17 @@
+# Separate environment from the unchanged InternVL Transformers 4.57.6 runner.
+transformers==5.5.0
+huggingface-hub==1.33.0
+accelerate==1.12.0
+bitsandbytes==0.49.2
+torch>=2.5
+torchvision
+safetensors>=0.4.3
+requests>=2.32,<3
+sentencepiece
+datasets>=3,<5
+numpy
+pandas
+pillow
+opencv-python-headless
+tqdm
+pytest

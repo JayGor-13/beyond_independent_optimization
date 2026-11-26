@@ -1,0 +1,108 @@
+<mxGraphModel dx="1030" dy="608" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <root>
+    <mxCell id="0" />
+    <mxCell id="1" parent="0" />
+    <mxCell id="title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=22;fontStyle=1;align=center;" value="Failure Propagation Chain in Multimodal Edge Inference" vertex="1">
+      <mxGeometry height="35" width="580" x="257.5" y="70" as="geometry" />
+    </mxCell>
+    <mxCell id="input" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#E8F3FF;strokeColor=#2B6CB0;fontSize=14;fontStyle=1;spacing=8;" value="Visual Input&#xa;images / video / OCR" vertex="1">
+      <mxGeometry height="70" width="145" x="55" y="175" as="geometry" />
+    </mxCell>
+    <mxCell id="compression" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#E9F8EF;strokeColor=#2F855A;fontSize=15;fontStyle=1;spacing=8;" value="Token&#xa;Compression" vertex="1">
+      <mxGeometry height="70" width="145" x="265" y="175" as="geometry" />
+    </mxCell>
+    <mxCell id="routing" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#F0E9FF;strokeColor=#6B46C1;fontSize=15;fontStyle=1;spacing=8;" value="MoE&#xa;Routing" vertex="1">
+      <mxGeometry height="70" width="145" x="475" y="175" as="geometry" />
+    </mxCell>
+    <mxCell id="quant" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#FFF3DF;strokeColor=#DD6B20;fontSize=15;fontStyle=1;spacing=8;" value="Quantized&#xa;Inference" vertex="1">
+      <mxGeometry height="70" width="145" x="685" y="175" as="geometry" />
+    </mxCell>
+    <mxCell id="hardware" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#FFE9EC;strokeColor=#C53030;fontSize=15;fontStyle=1;spacing=8;" value="Hardware&#xa;Execution" vertex="1">
+      <mxGeometry height="70" width="145" x="895" y="175" as="geometry" />
+    </mxCell>
+    <mxCell id="interfaceA" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#555555;fontSize=16;fontStyle=1;" value="A" vertex="1">
+      <mxGeometry height="31" width="34.5" x="215.5" y="195.5" as="geometry" />
+    </mxCell>
+    <mxCell id="interfaceB" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#555555;fontSize=16;fontStyle=1;" value="B" vertex="1">
+      <mxGeometry height="27" width="35" x="425" y="197.5" as="geometry" />
+    </mxCell>
+    <mxCell id="interfaceC" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#555555;fontSize=16;fontStyle=1;" value="C" vertex="1">
+      <mxGeometry height="32" width="30" x="640" y="195" as="geometry" />
+    </mxCell>
+    <mxCell id="interfaceD" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#555555;fontSize=16;fontStyle=1;" value="D" vertex="1">
+      <mxGeometry height="32" width="30" x="850" y="195" as="geometry" />
+    </mxCell>
+    <mxCell id="e1" edge="1" parent="1" source="input" style="endArrow=block;html=1;rounded=0;strokeWidth=1.8;strokeColor=#444444;" target="interfaceA">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e2" edge="1" parent="1" source="interfaceA" style="endArrow=block;html=1;rounded=0;strokeWidth=1.8;strokeColor=#444444;" target="compression">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e3" edge="1" parent="1" source="compression" style="endArrow=block;html=1;rounded=0;strokeWidth=1.8;strokeColor=#444444;" target="interfaceB">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e4" edge="1" parent="1" source="interfaceB" style="endArrow=block;html=1;rounded=0;strokeWidth=1.8;strokeColor=#444444;" target="routing">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e5" edge="1" parent="1" source="routing" style="endArrow=block;html=1;rounded=0;strokeWidth=1.8;strokeColor=#444444;" target="interfaceC">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e6" edge="1" parent="1" source="interfaceC" style="endArrow=block;html=1;rounded=0;strokeWidth=1.8;strokeColor=#444444;" target="quant">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e7" edge="1" parent="1" source="quant" style="endArrow=block;html=1;rounded=0;strokeWidth=1.8;strokeColor=#444444;" target="interfaceD">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e8" edge="1" parent="1" source="interfaceD" style="endArrow=block;html=1;rounded=0;strokeWidth=1.8;strokeColor=#444444;" target="hardware">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="failA" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#F7FBFF;strokeColor=#A0AEC0;fontSize=12;align=center;" value="Evidence loss&#xa;spatial disruption" vertex="1">
+      <mxGeometry height="52" width="135" x="165.25" y="300" as="geometry" />
+    </mxCell>
+    <mxCell id="failB" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#F7FBFF;strokeColor=#A0AEC0;fontSize=12;align=center;" value="Routing shift&#xa;expert imbalance" vertex="1">
+      <mxGeometry height="52" width="135" x="375" y="300" as="geometry" />
+    </mxCell>
+    <mxCell id="failC" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#F7FBFF;strokeColor=#A0AEC0;fontSize=12;align=center;" value="Assignment drift&#xa;precision sensitivity" vertex="1">
+      <mxGeometry height="52" width="145" x="582.5" y="300" as="geometry" />
+    </mxCell>
+    <mxCell id="failD" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#F7FBFF;strokeColor=#A0AEC0;fontSize=12;align=center;" value="Memory stalls&#xa;thermal pressure" vertex="1">
+      <mxGeometry height="52" width="135" x="797.5" y="300" as="geometry" />
+    </mxCell>
+    <mxCell id="fa" edge="1" parent="1" source="interfaceA" style="endArrow=block;html=1;rounded=0;dashed=1;strokeColor=#718096;strokeWidth=1.3;" target="failA">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="fb" edge="1" parent="1" source="interfaceB" style="endArrow=block;html=1;rounded=0;dashed=1;strokeColor=#718096;strokeWidth=1.3;" target="failB">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="fc" edge="1" parent="1" source="interfaceC" style="endArrow=block;html=1;rounded=0;dashed=1;strokeColor=#718096;strokeWidth=1.3;" target="failC">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="fd" edge="1" parent="1" source="interfaceD" style="endArrow=block;html=1;rounded=0;dashed=1;strokeColor=#718096;strokeWidth=1.3;" target="failD">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="kvcache" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#E6FFFA;strokeColor=#2C7A7B;fontSize=14;fontStyle=1;spacing=8;" value="KV Cache&#xa;stored states" vertex="1">
+      <mxGeometry height="62" width="165" x="715" y="382" as="geometry" />
+    </mxCell>
+    <mxCell id="kvnote" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=11;fontColor=#4A5568;align=center;" value="cross-stage state" vertex="1">
+      <mxGeometry height="20" width="90" x="752" y="452" as="geometry" />
+    </mxCell>
+    <mxCell id="kv1" edge="1" parent="1" source="quant" style="endArrow=block;html=1;rounded=0;dashed=1;strokeColor=#2C7A7B;strokeWidth=1.4;" target="kvcache">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="kv2" edge="1" parent="1" source="kvcache" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;dashed=1;strokeColor=#2C7A7B;strokeWidth=1.4;" target="hardware">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="915" y="412" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="feedback" edge="1" parent="1" source="hardware" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;dashed=1;strokeColor=#C53030;strokeWidth=2;fontSize=12;fontColor=#C53030;" target="compression" value="hardware budget pushes back on all upstream choices">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="970" y="500" />
+          <mxPoint x="335" y="500" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+  </root>
+</mxGraphModel>

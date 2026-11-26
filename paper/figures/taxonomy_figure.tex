@@ -1,0 +1,129 @@
+\begingroup
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tikzpicture}[
+  x=1mm,
+  y=1mm,
+  every node/.style={font=\sffamily},
+  rootbox/.style={
+    draw=black!70,
+    line width=0.7pt,
+    rounded corners=2pt,
+    fill=violet!12,
+    align=center,
+    font=\sffamily\bfseries\small,
+    text width=30mm,
+    minimum height=13mm,
+    inner sep=2.4pt,
+    rotate=90
+  },
+  family/.style args={#1}{
+    draw=#1!75!black,
+    line width=0.65pt,
+    rounded corners=2pt,
+    fill=#1!17,
+    align=center,
+    font=\sffamily\bfseries\small,
+    text width=32mm,
+    minimum height=12mm,
+    inner sep=2.4pt
+  },
+  subfamily/.style args={#1}{
+    draw=#1!75!black,
+    line width=0.6pt,
+    rounded corners=2pt,
+    fill=#1!10,
+    align=center,
+    font=\sffamily\bfseries\scriptsize,
+    text width=42mm,
+    minimum height=12.5mm,
+    inner sep=2.4pt
+  },
+  detail/.style args={#1}{
+    draw=#1!75!black,
+    line width=0.55pt,
+    rounded corners=2pt,
+    fill=#1!4,
+    align=left,
+    font=\sffamily\scriptsize,
+    text width=76mm,
+    minimum height=16mm,
+    inner sep=2.8pt
+  },
+  connector/.style={draw=black!55,line width=0.45pt}
+]
+
+\node[rootbox] (root) at (0,0)
+  {Efficient Multimodal\\Intelligence at\\Scale \& Edge};
+
+\node[family=cyan]   (vision) at (34,88)  {Vision Encoder\\Sparsification};
+\node[family=orange] (mllm)   at (34,44)  {MLLM Sequence\\Compression};
+\node[family=yellow] (kv)     at (34,0)   {KV-Cache\\Optimisation};
+\node[family=green]  (moe)    at (34,-44) {MoE Routing\\Dynamics};
+\node[family=gray]   (edge)   at (34,-88) {Edge Quantization\\\& Systems};
+
+\node[subfamily=cyan]   (s1)  at (86,99)  {Bipartite and Salience-Aware Merging};
+\node[subfamily=cyan]   (s2)  at (86,77)  {Self-Supervised Redundancy};
+\node[subfamily=orange] (s3)  at (86,55)  {Multi-Stage Dropping};
+\node[subfamily=orange] (s4)  at (86,33)  {Search and Learned Pruning};
+\node[subfamily=yellow] (s5)  at (86,11)  {Graph-Based KV Eviction};
+\node[subfamily=yellow] (s6)  at (86,-11) {State-Space / Semantic Cache};
+\node[subfamily=green]  (s7)  at (86,-33) {Routing Stability};
+\node[subfamily=green]  (s8)  at (86,-55) {Temporal Routing Consistency};
+\node[subfamily=gray]   (s9)  at (86,-77) {Routing-Consistent PTQ};
+\node[subfamily=gray]   (s10) at (86,-99) {Hot/Cold Expert Storage};
+
+\node[detail=cyan] (d1) at (154,99)
+  {\textbf{Representative methods:} ToMe, ATM, AdaMerge, ToSA, MaMe/MaRe, VisionTrim\\
+   \citep{bolya2023tokenmergingvitfaster,Lee_2025,lee2026adamergesalienceawareadaptivetoken,huang2025tosatokenmergingspatial,huo2026mamemarematrixbased,yu2026visiontrimunifiedvisiontoken}};
+\node[detail=cyan] (d2) at (154,77)
+  {\textbf{Redundancy evidence:} MAE, VideoMAE, Perceiver\\
+   \citep{he2021maskedautoencodersscalablevision,tong2022videomaemaskedautoencodersdataefficient,jaegle2021perceivergeneralperceptioniterative,wu2022rapredundancyawarevideolanguagepretraining,Li_2023}};
+\node[detail=orange] (d3) at (154,55)
+  {\textbf{Pipeline-aware dropping:} MustDrop, HiRED, ZipVL, SparseVLM\\
+   \citep{liu2024multistagevisiontokendropping,arif2024hiredattentionguidedtokendropping,he2024zipvlefficientlargevisionlanguage,zhang2025sparsevlmvisualtokensparsification}};
+\node[detail=orange] (d4) at (154,33)
+  {\textbf{Selection policies:} GreedyPrune, EvoComp, FastVID, CS-VLM\\
+   \citep{pei2025greedypruneretentingcriticalvisual,song2026evocomplearningvisualtoken,shen2025fastviddynamicdensitypruning,kiruluta2025csvlmcompressedsensingattention}};
+\node[detail=yellow] (d5) at (154,11)
+  {\textbf{Dependency-aware eviction:} GraphKV, MadaKV, H$_2$O, SnapKV, PyramidKV\\
+   \citep{li2025graphkvbreakingstaticselection,li2025madakvadaptivemodalityperceptionkv,zhang2023h2oheavyhitteroracleefficient,li2024snapkvllmknowslooking,cai2025pyramidkvdynamickvcache}};
+\node[detail=yellow] (d6) at (154,-11)
+  {\textbf{Cache compression:} RetentiveKV, PagedAttention, ChunkKV, StreamingLLM\\
+   \citep{liu2026retentivekvstatespacememoryuncertaintyaware,kwon2023efficientmemorymanagementlarge,liu2025chunkkvsemanticpreservingkvcache,xiao2024efficientstreaminglanguagemodels}};
+\node[detail=green] (d7) at (154,-33)
+  {\textbf{Stable routing:} Auxiliary-free balancing, ReMoE, Eigen-router, Spectral regularization\\
+   \citep{wang2024auxiliarylossfreeloadbalancingstrategy,wang2025remoefullydifferentiablemixtureofexperts,do2026eigenvectorsexpertstrainingfreenoncollapsing,delibasoglu2026spectralmanifoldregularizationstable}};
+\node[detail=green] (d8) at (154,-55)
+  {\textbf{Video routing pressure:} DynTok, V2Drop, HERMES, LVC, MMViR\\
+   \citep{zhang2025dyntokdynamiccompressionvisual,chen2026variationawarevisiontokendropping,faure2025hermestemporalcoherentlongformunderstanding,wang2025lvclightweightcompressionframework,li2026mmvirmultimodalmultigranularityrepresentation}};
+\node[detail=gray] (d9) at (154,-77)
+  {\textbf{Quantized routing:} EAQuant, VSRAQ, MoQE, GEMQ, MoBiE, VLMQ\\
+   \citep{fu2026eaquantenhancingposttrainingquantization,park2026valueandstructurealignmentroutingconsistentquantization,kim2023mixturequantizedexpertsmoqe,deng2026gemqglobalexpertlevelmixedprecision,zhao2026mobieefficientinferencemixture,xue2026vlmqtokensaliencydrivenposttraining}};
+\node[detail=gray] (d10) at (154,-99)
+  {\textbf{On-device serving:} EdgeMoE, D2MoE, ZipMoE, ExpertFlow, Janus\\
+   \citep{yi2025edgemoeempoweringsparselarge,Wang_2025,yang2026zipmoeefficientondevicemoe,shen2025expertflowadaptiveexpertscheduling,zhang2026janusdisaggregatingattentionexperts}};
+
+\draw[connector] (root.south) -- ++(6,0) |- (vision.west);
+\draw[connector] (root.south) -- ++(6,0) |- (mllm.west);
+\draw[connector] (root.south) -- ++(6,0) -- (kv.west);
+\draw[connector] (root.south) -- ++(6,0) |- (moe.west);
+\draw[connector] (root.south) -- ++(6,0) |- (edge.west);
+
+\draw[connector] (vision.east) -- ++(6,0) |- (s1.west);
+\draw[connector] (vision.east) -- ++(6,0) |- (s2.west);
+\draw[connector] (mllm.east) -- ++(6,0) |- (s3.west);
+\draw[connector] (mllm.east) -- ++(6,0) |- (s4.west);
+\draw[connector] (kv.east) -- ++(6,0) |- (s5.west);
+\draw[connector] (kv.east) -- ++(6,0) |- (s6.west);
+\draw[connector] (moe.east) -- ++(6,0) |- (s7.west);
+\draw[connector] (moe.east) -- ++(6,0) |- (s8.west);
+\draw[connector] (edge.east) -- ++(6,0) |- (s9.west);
+\draw[connector] (edge.east) -- ++(6,0) |- (s10.west);
+
+\foreach \s/\d in {s1/d1,s2/d2,s3/d3,s4/d4,s5/d5,s6/d6,s7/d7,s8/d8,s9/d9,s10/d10}
+  \draw[connector] (\s.east) -- (\d.west);
+
+\end{tikzpicture}%
+}
+\endgroup
