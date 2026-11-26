@@ -5,7 +5,7 @@ The analysis/reproduction workflow needs no CUDA. Python 3.12 is the tested inte
 ## Static checks and existing paper results
 
 ```bash
-python -m pip install -r requirements-analysis.txt
+python -m pip install -r requirements/analysis.txt
 python tools/check_repository.py
 python tools/reproduce_paper.py
 ```
@@ -18,11 +18,11 @@ Create separate environments for these two commands; their Transformers versions
 
 ```bash
 # Environment A: legacy metric/runtime fixtures plus Transformers 4.57.6 adapters
-python -m pip install -r environments/requirements-tests-multimodel.txt
+python -m pip install -r requirements/tests-multimodel.txt
 python tools/run_tests.py multimodel legacy
 
 # Environment B: Transformers 5.5.0 revision adapter
-python -m pip install -r environments/requirements-tests-minor.txt
+python -m pip install -r requirements/tests-minor.txt
 python tools/run_tests.py minor_revision
 ```
 

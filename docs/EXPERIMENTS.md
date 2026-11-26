@@ -9,7 +9,7 @@
 | [temporal_accuracy](../experiments/temporal_accuracy) | Do paired TRC changes track answer-margin/correctness changes? | Implementation; no completed measurements supplied |
 | [control_accuracy](../experiments/control_accuracy) | Recover missing answer-generating control accuracies on the original sample | Follow-up implementation; sample/provenance matching required |
 | [minor_revision](../experiments/minor_revision) | Does the compression/routing finding extend to 122B-class models and harder benchmarks? | Additional revision implementation; full GPU validation pending |
-| [Gemma prototype](../experimental/gemma4) | Additional architectural replication | Unresolved prototype; excluded from supported runners and CPU CI |
+| [Gemma prototype](../experiments/prototypes/gemma4) | Additional architectural replication | Unresolved prototype; excluded from supported runners and CPU CI |
 
 These are separate scripts with local modules such as `core.py`, `run.py`, and `analyze.py`. Run each suite in its own process and compatible environment. [The test wrapper](../tools/run_tests.py) handles process/import isolation.
 

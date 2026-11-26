@@ -1,4 +1,4 @@
--r ../requirements-analysis.txt
+-r analysis.txt
 torch==2.9.1
 torchvision==0.24.1
 transformers==5.5.0

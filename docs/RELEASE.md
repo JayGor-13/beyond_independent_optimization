@@ -3,6 +3,7 @@
 Prepared 26 November 2026 from the paper's research workspace.
 
 - Runnable code is grouped by experiment under `experiments/`.
+- Shared analysis and CPU test dependencies live in `requirements/`. Archived prototypes are nested under `experiments/prototypes/`.
 - Historical measurements and the original output notebook are separate from code and are retained byte-for-byte.
 - The full-sweep InternVL source is selected as the canonical multimodel package; stale duplicate package copies are omitted.
 - The unresolved Gemma prototype is retained separately and is not presented as a working experiment.

@@ -24,4 +24,8 @@ The GitHub Actions workflow is supplied but has not been executed on GitHub duri
 
 ## Portable source archive
 
-The release ZIP was extracted into a fresh temporary directory. All 196 bundled file checksums verified; repository checks, empirical reproduction and all six CPU suites passed from that extraction. The nine reproduced result CSVs again matched the included values within 1e-12, independently of the original research-folder paths.
+The initial release ZIP was extracted into a fresh temporary directory. All 196 bundled file checksums verified; repository checks, empirical reproduction and all six CPU suites passed from that extraction. The nine reproduced result CSVs again matched the included values within 1e-12, independently of the original research-folder paths.
+
+## Dependency and prototype folder cleanup
+
+Shared dependency profiles now live in `requirements/`; the archived Gemma prototype is under `experiments/prototypes/gemma4/`. Both moved test profiles resolved offline against their existing environments without dependency changes. CI profile paths, documentation links, and source-manifest destinations were validated. The reorganized 198-file source archive was extracted and every checksum verified; obsolete top-level dependency/prototype folders are absent. Active experiment implementations and published measurements are unchanged by this layout cleanup.

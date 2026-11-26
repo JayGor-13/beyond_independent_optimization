@@ -93,18 +93,23 @@ experiments/             Standalone runners, analysis, tests, and Kaggle launche
   temporal_accuracy/    Paired temporal-perturbation extension
   control_accuracy/     Follow-up generation for missing control accuracies
   minor_revision/       Qwen3.5 122B/35B and optional Qwen3.6 revision experiments
+  prototypes/gemma4/    Archived, unfinished Gemma adapter; outside supported runs
+requirements/
+  analysis.txt          CPU/Mac figure and table reproduction
+  tests-multimodel.txt  CPU tests using Transformers 4.57.6
+  tests-minor.txt       CPU tests using Transformers 5.5.0
 results/
   published/            Unmodified supplied measurements and metadata
   evidence/             Original executed InternVL notebook, with evidence outputs
   paper_tables/         Consolidated CSVs and empirical LaTeX tables
 paper/                  Manuscript, bibliography, figure assets, TMLR style files
 tools/                  Reproduction, validation, notebook bundling, release packaging
-environments/           Separate CPU test dependency profiles
-experimental/gemma4/    Unresolved prototype; outside the supported runner workflows
 docs/                   Reproducibility, provenance, development, release notes
 ```
 
 Generated runs go in `artifacts/` or the experiment's ignored output directory. Downloaded upstream code belongs in `external/`; weights, dataset caches, environments and generated ZIPs are excluded from Git.
+
+Shared dependency lists live in `requirements/`. Each standalone GPU experiment keeps its own runtime requirements beside its runner so its Kaggle bundle remains self-contained. Unfinished code is grouped under `experiments/prototypes/` and excluded from supported test and inference workflows.
 
 ## Rebuild existing tables and figures without a GPU
 
@@ -113,7 +118,7 @@ Use Python 3.12 or newer:
 ```bash
 python3.12 -m venv .venv-analysis
 source .venv-analysis/bin/activate
-python -m pip install -r requirements-analysis.txt
+python -m pip install -r requirements/analysis.txt
 python tools/check_repository.py
 python tools/reproduce_paper.py
 ```

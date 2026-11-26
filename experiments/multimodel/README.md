@@ -4,7 +4,7 @@ This is the canonical retention-sweep package selected for the repository. Inter
 
 ## From a repository checkout
 
-Use a separate CUDA environment with `requirements.txt` (Transformers 4.57.6). The CPU test profile is in `../../environments/requirements-tests-multimodel.txt`; it deliberately omits GPU-only bitsandbytes dependencies.
+Use a separate CUDA environment with `requirements.txt` (Transformers 4.57.6). The CPU test profile is in `../../requirements/tests-multimodel.txt`; it deliberately omits GPU-only bitsandbytes dependencies.
 
 ```bash
 python experiments/multimodel/run.py --model internvl35 --experiments 1 --smoke --output-root artifacts/internvl --scratch artifacts/model_shards

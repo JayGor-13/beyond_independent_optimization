@@ -10,9 +10,8 @@ ROOT = Path(__file__).resolve().parents[1]
 DIRECTORIES = {
     ".github",
     "docs",
-    "environments",
     "experiments",
-    "experimental",
+    "requirements",
     "paper",
     "results",
     "tools",
@@ -23,7 +22,6 @@ ROOT_FILES = {
     ".gitignore",
     ".gitattributes",
     ".editorconfig",
-    "requirements-analysis.txt",
 }
 
 

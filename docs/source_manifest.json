@@ -363,7 +363,7 @@
       "source": "internvl_original_retention_update/kaggle_new_models/README.md",
       "destination": "experiments/multimodel/README.md",
       "source_sha256": "066f3521841afefa57872c851e9f656e10a27604d8ae9ca0355fea50525e5204",
-      "release_sha256": "7bbee487247b9dbafc487a800117fcd7cda779a2452aa5ca5dff4a827a17aef7",
+      "release_sha256": "676dca1c465bfd8426816bd1129a5972018338abcff0494b6809aadca45df925",
       "byte_identical": false
     },
     {
@@ -1138,49 +1138,49 @@
     },
     {
       "source": "kaggle_new_models/gemma_adapter.py",
-      "destination": "experimental/gemma4/gemma_adapter.py",
+      "destination": "experiments/prototypes/gemma4/gemma_adapter.py",
       "source_sha256": "1a7382f826baf85363f9def06731aa9a90de8f213ba942cb1c2a7674f09cfa24",
       "release_sha256": "1a7382f826baf85363f9def06731aa9a90de8f213ba942cb1c2a7674f09cfa24",
       "byte_identical": true
     },
     {
       "source": "kaggle_new_models/gemma_loading.py",
-      "destination": "experimental/gemma4/gemma_loading.py",
+      "destination": "experiments/prototypes/gemma4/gemma_loading.py",
       "source_sha256": "fcb834ccef8efd70f135fc8fd2d97daeab848530dc3ac42fd18bd062edce3e00",
       "release_sha256": "fcb834ccef8efd70f135fc8fd2d97daeab848530dc3ac42fd18bd062edce3e00",
       "byte_identical": true
     },
     {
       "source": "kaggle_new_models/gemma_numerics.py",
-      "destination": "experimental/gemma4/gemma_numerics.py",
+      "destination": "experiments/prototypes/gemma4/gemma_numerics.py",
       "source_sha256": "2276cebf3f99ccf790a877baec429b1999f8fb9b1a5f9e8d7502b559cc69a14b",
       "release_sha256": "2276cebf3f99ccf790a877baec429b1999f8fb9b1a5f9e8d7502b559cc69a14b",
       "byte_identical": true
     },
     {
       "source": "kaggle_new_models/test_gemma.py",
-      "destination": "experimental/gemma4/test_gemma.py",
+      "destination": "experiments/prototypes/gemma4/test_gemma.py",
       "source_sha256": "dd4c0fe8522e6ea278ddf00d3ca59af575180d38a3ca84e01038f841ed5bce6c",
       "release_sha256": "dd4c0fe8522e6ea278ddf00d3ca59af575180d38a3ca84e01038f841ed5bce6c",
       "byte_identical": true
     },
     {
       "source": "kaggle_new_models/requirements_gemma4.txt",
-      "destination": "experimental/gemma4/requirements_gemma4.txt",
+      "destination": "experiments/prototypes/gemma4/requirements_gemma4.txt",
       "source_sha256": "b2491a42489d52edaf72fe83386a40a86c54ade3dabddd91bf3494e709faeb36",
       "release_sha256": "b2491a42489d52edaf72fe83386a40a86c54ade3dabddd91bf3494e709faeb36",
       "byte_identical": true
     },
     {
       "source": "kaggle_new_models/GEMMA4.md",
-      "destination": "experimental/gemma4/GEMMA4.md",
+      "destination": "experiments/prototypes/gemma4/GEMMA4.md",
       "source_sha256": "a832e2f9badfbbcf206c8d16f93f5ffaca90ae35ed255d23c5afd7c3e0680010",
       "release_sha256": "a832e2f9badfbbcf206c8d16f93f5ffaca90ae35ed255d23c5afd7c3e0680010",
       "byte_identical": true
     },
     {
       "source": "kaggle_new_models/Gemma4_Kaggle.ipynb",
-      "destination": "experimental/gemma4/Gemma4_Kaggle.ipynb",
+      "destination": "experiments/prototypes/gemma4/Gemma4_Kaggle.ipynb",
       "source_sha256": "0f7873604ab992dd2ea2a8d095b3e526e8d6cb9fdaad102064f8e1d9cbef8aac",
       "release_sha256": "0f7873604ab992dd2ea2a8d095b3e526e8d6cb9fdaad102064f8e1d9cbef8aac",
       "byte_identical": true
