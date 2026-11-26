@@ -79,7 +79,7 @@ def main():
         if not (paper / filename).exists():
             errors.append(f"Missing LaTeX dependency: {filename}")
     for path in [ROOT / "README.md", *(ROOT / "docs").glob("*.md")]:
-        for target in re.findall(r"(?<!!)\[[^\]]+\]\(([^)]+)\)", path.read_text()):
+        for target in re.findall(r"!?\[[^\]]*\]\(([^)]+)\)", path.read_text()):
             target = target.strip("<>").split("#", 1)[0]
             if (
                 target

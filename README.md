@@ -2,7 +2,78 @@
 
 Code, retained experimental evidence, and manuscript assets for **Compression, MoE Routing, and Quantization Interactions in Multimodal Edge Intelligence**.
 
-This repository studies how visual-token compression changes downstream expert routing and how temporal routing consistency responds to video-frame controls. Published measurements and additional revision experiments are kept separate. The scripts do not establish that routing drift causes accuracy loss.
+This survey examines how token compression, expert routing, numerical precision, and hardware constraints interact during multimodal inference. The experiments here measure two of those interactions: compression-induced routing changes and temporal routing consistency under frame controls.
+
+[Paper overview](#how-the-compression-experiment-works) · [Main results](#main-results) · [Reproduce the figures](#rebuild-existing-tables-and-figures-without-a-gpu) · [Run experiments](#run-model-experiments)
+
+## What the paper finds
+
+- **Pruning changes the routing of tokens that remain.** This is measured in DeepSeek-VL2-Tiny and InternVL3.5-30B-A3B on ScienceQA.
+- **Routing stability and accuracy can diverge.** Keeping more baseline expert assignments does not consistently produce a more accurate answer.
+- **Temporal routing consistency detects input structure.** Repeated, shuffled, and unrelated frames change TRC, but the evaluated samples do not establish TRC as a predictor of answer correctness.
+
+The practical outcome is to evaluate efficiency methods with **both task-quality and routing diagnostics**. These observations do not establish routing drift as the cause of accuracy loss, or demonstrate that preserving routing improves performance.
+
+## How the compression experiment works
+
+```mermaid
+flowchart TB
+    input["Same image, question,<br/>and prompt"] --> vision["Vision encoder<br/>and projector"]
+    vision --> baseline["Baseline:<br/>retain all visual tokens"]
+    vision --> pruned["Compression:<br/>L2 or random retention"]
+    baseline --> full["MoE decoder:<br/>baseline routes and answer"]
+    pruned --> compressed["Same MoE decoder and weights:<br/>compressed routes and answer"]
+    full --> compare["Align retained tokens by original identity<br/>Compare routing and task accuracy"]
+    compressed --> compare
+    style baseline fill:#e8f1fb,stroke:#397cbb,color:#17324d
+    style pruned fill:#e5f4ec,stroke:#339268,color:#17324d
+    style compare fill:#fff4d6,stroke:#b18a34,color:#17324d
+```
+
+**L2 selection** retains tokens with the largest embedding norms; random selection provides a matched token-budget control. **RACR** (routing assignment change rate) measures the fraction of baseline Top-k expert assignments not preserved for retained tokens. A value of 0% means their selected expert sets are unchanged. The comparison follows the same tokens before and after pruning, rather than comparing unrelated token positions.
+
+## Main results
+
+### 1. Compression changes downstream expert routing
+
+![ScienceQA accuracy changes and routing assignment changes across visual-token retention budgets](paper/figures/exp1_model_comparison.png)
+
+*Left: accuracy change relative to each model's own unpruned baseline, expressed as a percent of baseline accuracy. Right: RACR (%). Error bars show the saved 95% paired bootstrap intervals; lines connect measured budgets.*
+
+**Snapshot at 50% visual-token retention.** Unpruned accuracy is **71.60%** for DeepSeek-VL2-Tiny (FP16, n=1,000) and **93.36%** for InternVL3.5-30B-A3B (expert-NF4, n=256).
+
+| Model | Selection | Accuracy (%) | Accuracy change (pp) | RACR (%) |
+|---|---|---:|---:|---:|
+| DeepSeek-VL2-Tiny | L2 | 69.90 | −1.70 | 28.49 |
+| DeepSeek-VL2-Tiny | Random | 65.10 | −6.50 | 33.46 |
+| InternVL3.5-30B-A3B | L2 | 87.89 | −5.47 | 25.30 |
+| InternVL3.5-30B-A3B | Random | 88.67 | −4.69 | 28.86 |
+
+**How to read this:** L2 selection has lower routing change than random selection in both models. For InternVL, however, random selection has higher observed accuracy at this budget. That dissociation is why routing change should be measured alongside accuracy rather than treated as an accuracy surrogate. The table reports point estimates; full confidence intervals are in the [source values](results/paper_tables/exp1_paper_values.csv).
+
+Accuracy changes in the table are **percentage points (pp)**; the left figure uses **relative percent change**. Compare pruning methods within each model: sample sizes, precision, and preprocessing differ between models, so absolute cross-model values are not paired comparisons.
+
+### 2. Temporal routing consistency responds to frame structure
+
+The NExT-QA experiment uses **eight sampled frames as separate images**, with 256 questions per model. It compares chronological frames with repeated-frame, shuffled-frame, and cross-clip controls.
+
+![TRC at eight experts and weighted TRC for repeated, chronological, shuffled, cross-clip, and router-permutation controls](paper/figures/trc_models_combined.png)
+
+*Colors distinguish models. Solid lines show TRC@8; dashed lines show weighted TRC. Error bars are saved 95% bootstrap intervals. Router permutation relabels stored expert distributions and is a routing-only diagnostic, with no separate answer-generating run.*
+
+**How to read this:** repeated frames produce higher consistency, while shuffling and cross-clip substitution reduce it relative to chronological input. Higher consistency does not necessarily mean better answers: for InternVL, repeated frames have higher TRC@8 (**0.6422**) than chronological frames (**0.5089**), but lower accuracy (**74.61% vs. 87.89%**).
+
+For both models and both headline TRC metrics, the confidence interval for the difference between correct and incorrect questions includes zero. Thus these samples show sensitivity to input structure without demonstrating a reliable association with correctness. See the [temporal result values](results/paper_tables/exp2_paper_values.csv), [DeepSeek correctness analysis](results/published/deepseek/temporal_routing/accuracy_relation.csv), and [InternVL correctness analysis](results/paper_tables/internvl_accuracy_relation.csv).
+
+> **Evidence scope:** the figures summarize completed DeepSeek and InternVL runs. The additional Qwen3.5/Qwen3.6 experiments have runners and tests but no included real-data measurements. See [results provenance](docs/RESULTS.md) for the retained evidence and its limits.
+
+## From experiments to paper figures
+
+| Research question | Code entry point | Included evidence |
+|---|---|---|
+| Does pruning change retained-token routing? | [Compression runner](experiments/compression_routing/run.py), [InternVL/Qwen runner](experiments/multimodel/run.py) | [DeepSeek summary](results/published/deepseek/compression_routing/summary.csv), [InternVL sweep](results/published/internvl/retention_sweep/summaries/summary.csv) |
+| Does TRC respond to temporal controls? | [Temporal runner](experiments/temporal_routing/run.py), [multimodel analysis](experiments/multimodel/analyze.py) | [DeepSeek temporal CSVs](results/published/deepseek/temporal_routing), [InternVL executed notebook](results/evidence/internvl_experiments_1_2.ipynb) |
+| How are the displayed comparisons rebuilt? | [Paper reproduction script](tools/reproduce_paper.py) | [Consolidated paper tables](results/paper_tables), [figure assets](paper/figures) |
 
 ## Start here
 
